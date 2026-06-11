@@ -7,7 +7,8 @@
       "Bash(npx -p typescript tsc --noEmit --strict --esModuleInterop --moduleResolution node --baseUrl . --paths '{\"@/*\":[\"./*\"]}' src/services/generation/arc-planner.ts)",
       "Bash(npx -p typescript tsc --noEmit --strict --esModuleInterop --moduleResolution node src/services/generation/arc-planner.ts)",
       "Bash(npx -p typescript tsc --noEmit --strict --esModuleInterop --moduleResolution node --ignoreConfig src/services/generation/arc-planner.ts)",
-      "Bash(node --input-type=module -e ' *)"
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(git add *)"
     ]
   }
 }

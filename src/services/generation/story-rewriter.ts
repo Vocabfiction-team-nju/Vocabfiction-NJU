@@ -12,7 +12,7 @@ WRITING GUIDELINES:
    - "side": "right" for the protagonist (main character, the "I" narrator)
    - "side": "left" for all other characters
    - "name": the speaker's name in English
-4. Target words - Incorporate as many target vocabulary words as NATURALLY as possible. Never force a word. For every used target word, report its item_id and exact surface form in target_words_used.
+4. Target words - Incorporate as many target vocabulary words as NATURALLY as possible. Never force a word. You MUST use at least 15 of the target words per episode (fewer only if the source text is too short to accommodate them). For every used target word, report its item_id and exact surface form in target_words_used.
 5. Surface forms welcome - You may use natural inflected forms (e.g. "consume" -> "consumed", "run" -> "ran").
 6. Style - Use accessible English suitable for young-adult/light-novel readers. Show emotions through actions, expressions, and dialogue rather than abstract exposition.
 7. Message granularity - Every message must contain only 1-2 sentences. Split long narration or speech into multiple consecutive messages.

@@ -78,7 +78,9 @@ async function createItemsForEntry(
     return [buildItem(itemIdFor(normalized, 1), normalized, '', chapterFirstSeen, now)];
   }
 
-  return senses.map((sense) => buildItem(
+  // Limit to 2 senses per word. 4+ senses for a single word (e.g. "a") consume
+  // too many new-word slots in early episodes and overwhelm the generation pool.
+  return senses.slice(0, 2).map((sense) => buildItem(
     sense.id,
     normalized,
     sense.meaning,

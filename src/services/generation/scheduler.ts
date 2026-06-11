@@ -1,6 +1,16 @@
 import type { ArcPlan, TargetWord, UserVocabulary, VocabularyItem } from './types';
 
-const EPISODE_LIMIT = 10;
+const EPISODE_LIMIT = 20;
+
+/** Fisher-Yates shuffle — breaks alphabetical bias in word pools. */
+function shuffleArray<T>(array: T[]): T[] {
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
 
 function parseDate(value: string | null | undefined): Date | null {
   if (!value) return null;
@@ -154,14 +164,24 @@ export async function scheduleVocabulary(
   now = new Date(),
 ): Promise<ArcPlan> {
   const pools = applyPendingOverlay(buildPools(userVocabulary, now), arcPlan.pending_words);
-  let unseenPos = 0;
-  let reviewPos = 0;
+
+  // Shuffle pools so new words are distributed across the alphabet,
+  // not fed in file-order (which is alphabetical).
+  pools.unseenPool = shuffleArray(pools.unseenPool);
+  pools.reviewPool = shuffleArray(pools.reviewPool);
+
   const arcNewIds = new Set<string>();
+
+  // Track the full candidate window consumed, not just the allocated count.
+  // Old code advanced by allocation count, which caused later episodes to see
+  // shrinking pools when earlier episodes skipped candidates (arcNewIds dedup).
+  let unseenCandidateConsumed = 0;
+  let reviewCandidateConsumed = 0;
 
   const episodes = arcPlan.episodes.map((episode) => {
     const candidateCount = EPISODE_LIMIT * 3;
-    const unseenBatch = pools.unseenPool.slice(unseenPos, unseenPos + candidateCount);
-    const reviewBatch = pools.reviewPool.slice(reviewPos, reviewPos + candidateCount);
+    const unseenBatch = pools.unseenPool.slice(unseenCandidateConsumed, unseenCandidateConsumed + candidateCount);
+    const reviewBatch = pools.reviewPool.slice(reviewCandidateConsumed, reviewCandidateConsumed + candidateCount);
 
     const unseenScored = unseenBatch.map(
       (item): [number, VocabularyItem] => [finalScore(item, 0.5, now), item],
@@ -179,8 +199,10 @@ export async function scheduleVocabulary(
       )
       : allocateMainEpisode(unseenScored, reviewScored, arcNewIds);
 
-    unseenPos += targetWords.filter((word) => word.is_new).length;
-    reviewPos += targetWords.filter((word) => !word.is_new).length;
+    // Advance by the full candidate window, not by actual allocation count.
+    // This prevents later episodes from seeing rapidly shrinking candidate pools.
+    unseenCandidateConsumed += candidateCount;
+    reviewCandidateConsumed += candidateCount;
 
     return { ...episode, target_words: targetWords };
   });

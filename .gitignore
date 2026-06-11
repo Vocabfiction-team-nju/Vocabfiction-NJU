@@ -38,3 +38,7 @@ Thumbs.db
 
 # Deprecated (not part of current project)
 vocab-novel-app-deprecated/
+
+# Claude code
+PROJECT_STATE.md
+ARCHITECTURE.md 
