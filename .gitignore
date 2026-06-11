@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+
+# Environment
+.env
+.env.local
+
+# Backend local state
+.backend-git-history/
+ELBackend/.sisyphus/
+ELBackend/.venv/
+ELBackend/.vscode/
+ELBackend/.env
+ELBackend/.pytest_cache/
+ELBackend/.ruff_cache/
+ELBackend/.cache/
+ELBackend/**/__pycache__/
+ELBackend/**/*.pyc
+
+# Android signing
+android/app/*.jks
+android/app/*release*.keystore
+android/app/upload*.keystore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deprecated (not part of current project)
+vocab-novel-app-deprecated/
