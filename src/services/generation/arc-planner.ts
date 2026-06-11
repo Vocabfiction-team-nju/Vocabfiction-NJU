@@ -7,6 +7,52 @@ const SIDE_EP_REJECT_THRESHOLD = 3;
 const SIDE_EP_TRIGGER_MIN_WORDS = 5;
 const SIDE_EPISODE_POSITION = -1;
 
+// ============================================================
+// CJK-aware word counting helpers
+// ============================================================
+
+/** Ratio of CJK codepoints in text. CJK when this > 0.3. */
+function cjkRatioOf(text: string): number {
+  if (!text) return 0;
+  const cjkLen = (text.match(/[一-鿿㐀-䶿豈-﫿]/g)?.length ?? 0);
+  return cjkLen / text.length;
+}
+
+/** Whether the text is predominantly CJK (Chinese / Japanese / Korean). */
+function isCJK(text: string): boolean {
+  return cjkRatioOf(text) > 0.3;
+}
+
+/**
+ * "Word" count for a slice of text:
+ * - CJK text: number of non-whitespace characters (each character ≈ 1 word)
+ * - English text: whitespace-split tokens
+ */
+function countWords(text: string): number {
+  if (!text) return 0;
+  if (isCJK(text)) {
+    return text.replace(/\s+/g, '').length;
+  }
+  const tokens = text.split(/\s+/).filter(Boolean);
+  return tokens.length;
+}
+
+/**
+ * Tokenize text into "word" units:
+ * - CJK text: each non-whitespace character is a separate token
+ * - English text: whitespace-split tokens
+ *
+ * The resulting array is compatible with `extractSourceText`'s
+ * offset-based slicing and joining.
+ */
+function tokenizeText(text: string): string[] {
+  if (!text) return [];
+  if (isCJK(text)) {
+    return text.replace(/\s+/g, '').split('');
+  }
+  return text.split(/\s+/).filter(Boolean);
+}
+
 export interface ArcPlannerConfig {
   episodes_per_arc: number;
   max_episode_words: number;
@@ -49,11 +95,15 @@ function extractSourceText(
   let endChapterId = startChapterId;
   let endWordOffset = startWordOffset;
 
+  // Determine join separator based on the first chapter's text type
+  const firstChapter = chapters.find((c) => c.chapter_id === startChapterId);
+  const separator = (firstChapter && !isCJK(firstChapter.raw_text)) ? ' ' : '';
+
   while (collected.length < numWords) {
     const chapter = chapters.find((c) => c.chapter_id === chapterIndex);
     if (!chapter) break;
 
-    const words = chapter.raw_text.split(/\s+/).filter(Boolean);
+    const words = tokenizeText(chapter.raw_text);
     const startIndex = chapterIndex === startChapterId ? startWordOffset : 0;
     const remainingNeeded = numWords - collected.length;
     const available = words.length - startIndex;
@@ -63,7 +113,7 @@ function extractSourceText(
       endChapterId = chapterIndex;
       endWordOffset = startIndex + remainingNeeded;
       return {
-        text: collected.join(' '),
+        text: collected.join(separator),
         endChapterId,
         endWordOffset,
       };
@@ -76,7 +126,7 @@ function extractSourceText(
   }
 
   return {
-    text: collected.join(' '),
+    text: collected.join(separator),
     endChapterId,
     endWordOffset,
   };
@@ -115,7 +165,7 @@ export function planNextArc(params: {
   }
 
   let wordPos = Math.floor(
-    startChapter.raw_text.split(/\s+/).filter(Boolean).length * progress.chapter_offset,
+    countWords(startChapter.raw_text) * progress.chapter_offset,
   );
   const startEpisodeId = prevArc?.episodes.length
     ? prevArc.episodes[prevArc.episodes.length - 1].episode_id + 1
@@ -123,7 +173,7 @@ export function planNextArc(params: {
 
   const lastChapterId = Math.max(...chapters.map((chapter) => chapter.chapter_id));
   const lastChapter = chapters.find((chapter) => chapter.chapter_id === lastChapterId);
-  const lastChapterWordCount = lastChapter?.raw_text.split(/\s+/).filter(Boolean).length ?? 0;
+  const lastChapterWordCount = lastChapter ? countWords(lastChapter.raw_text) : 0;
 
   let endChapterId = currentChapterId;
   let endWordOffset = wordPos;
@@ -157,7 +207,7 @@ export function planNextArc(params: {
     endChapterId = extracted.endChapterId;
     endWordOffset = extracted.endWordOffset;
 
-    const sourceWordCount = extracted.text ? extracted.text.split(/\s+/).filter(Boolean).length : 0;
+    const sourceWordCount = extracted.text ? countWords(extracted.text) : 0;
     if (sourceWordCount === 0) {
       if (shouldAddSideEpisode(pendingWords, config)
         && !episodes.some((episode) => episode.episode_type === 'side')) {
@@ -190,7 +240,7 @@ export function planNextArc(params: {
         const prevChapterId = endChapterId > 1 ? endChapterId - 1 : 1;
         const prevChapter = chapters.find((chapter) => chapter.chapter_id === prevChapterId);
         if (prevChapter) {
-          const prevWordCount = prevChapter.raw_text.split(/\s+/).filter(Boolean).length;
+          const prevWordCount = countWords(prevChapter.raw_text);
           wordPos = Math.max(0, prevWordCount + nextStart);
           currentChapterId = prevChapterId;
         } else {

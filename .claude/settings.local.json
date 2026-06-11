@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const d = require\\('fs'\\).readFileSync\\('/dev/stdin','utf-8'\\); const j = JSON.parse\\(d\\); console.log\\(JSON.stringify\\(j.jest || j.scripts?.test || j.devDependencies?.jest || 'no jest info'\\)\\);\")",
+      "Bash(npx tsc *)",
+      "Bash(npx -p typescript tsc --noEmit --strict --esModuleInterop --moduleResolution node --baseUrl . --paths '{\"@/*\":[\"./*\"]}' src/services/generation/arc-planner.ts)",
+      "Bash(npx -p typescript tsc --noEmit --strict --esModuleInterop --moduleResolution node src/services/generation/arc-planner.ts)",
+      "Bash(npx -p typescript tsc --noEmit --strict --esModuleInterop --moduleResolution node --ignoreConfig src/services/generation/arc-planner.ts)",
+      "Bash(node --input-type=module -e ' *)"
+    ]
+  }
+}
