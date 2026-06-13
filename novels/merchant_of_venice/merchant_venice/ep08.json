@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "ep": 8,
+    "title": "The Rings Given Away",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "Outside the court, Bassanio still refused to give the ring. Gratitude pulled one way, Portia's command another.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 9,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Ask for anything else. This token is my wife's first gift and my promise to remain loyal.",
+      "marks": [
+        {
+          "word": "token",
+          "index": 5,
+          "definition": "信物",
+          "is_new": true
+        },
+        {
+          "word": "loyal",
+          "index": 16,
+          "definition": "忠诚的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "My friend, grant him this. His service saved my life, and my love should persuade your wife to forgive.",
+      "marks": [
+        {
+          "word": "grant",
+          "index": 2,
+          "definition": "授予",
+          "is_new": true
+        },
+        {
+          "word": "persuade",
+          "index": 14,
+          "definition": "说服",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "That pressure broke Bassanio. He sent Gratiano after the doctor with the ring, already feeling regret before it left his hand.",
+      "marks": [
+        {
+          "word": "pressure",
+          "index": 1,
+          "definition": "压力",
+          "is_new": true
+        },
+        {
+          "word": "ring",
+          "index": 12,
+          "definition": "戒指",
+          "is_new": false
+        },
+        {
+          "word": "regret",
+          "index": 15,
+          "definition": "后悔, 遗憾",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "Good doctor, my lord sends the ring and asks you to dine with him.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 6,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "I accept the ring, not the dinner. Tell him I expected no less generous payment.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 3,
+          "definition": "戒指",
+          "is_new": false
+        },
+        {
+          "word": "generous",
+          "index": 13,
+          "definition": "慷慨的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Nerissa, still disguised as the clerk, saw her chance to mirror the test. She asked Gratiano for his ring.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 18,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "My labor deserves a small reward too. That ring would suit me.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 8,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "My wife gave it to me. She would scratch my eyes out if I gave it away.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "Then refuse me. I will report that the clerk was valued below a trinket.",
+      "marks": [
+        {
+          "word": "refuse",
+          "index": 1,
+          "definition": "拒绝",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Gratiano disliked appearing ungenerous. He surrendered his ring with a joke, proving even louder vows could bend under vanity.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 7,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "Here, take it. If Nerissa grows angry, I will say a beardless clerk bewitched me.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia and Nerissa returned toward Belmont with both rings safe in their own keeping. Their trick had become evidence.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "We will reach home before them and let their own words prove the matter.",
+      "marks": [
+        {
+          "word": "prove",
+          "index": 11,
+          "definition": "证明",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "They will swear they defended the rings until death.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "And we will ask what kind of death wore a lawyer's robe and clerk's cap.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Meanwhile Antonio thanked Bassanio for love shown under pressure. Bassanio answered kindly, but regret pricked him.",
+      "marks": [
+        {
+          "word": "pressure",
+          "index": 8,
+          "definition": "压力",
+          "is_new": false
+        },
+        {
+          "word": "regret",
+          "index": 13,
+          "definition": "后悔, 遗憾",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Portia will understand, I hope. The man saved you. How could I refuse?",
+      "marks": [
+        {
+          "word": "refuse",
+          "index": 12,
+          "definition": "拒绝",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The question sounded noble. It also sounded like an excuse. A token is small until it carries a promise.",
+      "marks": [
+        {
+          "word": "token",
+          "index": 11,
+          "definition": "信物",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The journey back to Belmont would prove whether husbands could laugh at their own failure and learn from it.",
+      "marks": [
+        {
+          "word": "prove",
+          "index": 6,
+          "definition": "证明",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio told himself the gift was reasonable. A ring could be replaced, but Antonio could not. That argument sounded noble and incomplete.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 8,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "I grant the doctor honor, thanks, and money. Must the ring also go?",
+      "marks": [
+        {
+          "word": "grant",
+          "index": 1,
+          "definition": "授予",
+          "is_new": false
+        },
+        {
+          "word": "ring",
+          "index": 10,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "For my sake, let him have it. I once gave my body for your need; give this token for my release.",
+      "marks": [
+        {
+          "word": "token",
+          "index": 17,
+          "definition": "信物",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Gratiano mocked the matter until Nerissa tested him too. Under pressure, his wit became a door through which his promise escaped.",
+      "marks": [
+        {
+          "word": "pressure",
+          "index": 10,
+          "definition": "压力",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "If I refuse, I look ungrateful. If I grant it, I go home guilty. That clerk has trapped me neatly.",
+      "marks": [
+        {
+          "word": "refuse",
+          "index": 2,
+          "definition": "拒绝",
+          "is_new": false
+        },
+        {
+          "word": "grant",
+          "index": 8,
+          "definition": "授予",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The women accepted the rings not because metal mattered, but because the token would prove how quickly men excuse themselves.",
+      "marks": [
+        {
+          "word": "token",
+          "index": 12,
+          "definition": "信物",
+          "is_new": false
+        },
+        {
+          "word": "prove",
+          "index": 14,
+          "definition": "证明",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Let them arrive before their stories grow too polished. Fresh regret speaks more honestly.",
+      "marks": [
+        {
+          "word": "regret",
+          "index": 10,
+          "definition": "后悔, 遗憾",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Portia did not need the ring for wealth. She needed it as a truthful object, a small witness that could not flatter or explain itself.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 5,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "A promise kept only when convenient is not loyal. Let the token travel home before the excuse does.",
+      "marks": [
+        {
+          "word": "loyal",
+          "index": 8,
+          "definition": "忠诚的",
+          "is_new": false
+        },
+        {
+          "word": "token",
+          "index": 11,
+          "definition": "信物",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Nerissa enjoyed the game more openly, but she understood the lesson. Marriage vows deserved memory even when no court stood nearby.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "My husband will make a speech. I intend to make him finish it without the ring.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 15,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The ring moved from finger to messenger to disguised wife, gathering meanings at every step. It was no longer jewelry; it was evidence.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 1,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "I pray Nerissa values gratitude, because I have spent obedience very badly.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "His joke would sound smaller when the clerk became Nerissa again.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "ring",
+      "definition": "戒指",
+      "is_new": false
+    },
+    {
+      "word": "token",
+      "definition": "信物",
+      "is_new": true
+    },
+    {
+      "word": "loyal",
+      "definition": "忠诚的",
+      "is_new": false
+    },
+    {
+      "word": "grant",
+      "definition": "授予",
+      "is_new": true
+    },
+    {
+      "word": "persuade",
+      "definition": "说服",
+      "is_new": true
+    },
+    {
+      "word": "pressure",
+      "definition": "压力",
+      "is_new": true
+    },
+    {
+      "word": "regret",
+      "definition": "后悔, 遗憾",
+      "is_new": true
+    },
+    {
+      "word": "generous",
+      "definition": "慷慨的",
+      "is_new": true
+    },
+    {
+      "word": "refuse",
+      "definition": "拒绝",
+      "is_new": true
+    },
+    {
+      "word": "prove",
+      "definition": "证明",
+      "is_new": true
+    }
+  ]
+}

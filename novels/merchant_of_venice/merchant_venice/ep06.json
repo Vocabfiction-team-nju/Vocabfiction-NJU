@@ -1,0 +1,540 @@
+{
+  "meta": {
+    "ep": 6,
+    "title": "The Quality of Mercy",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "The court of Venice filled with senators, merchants, and citizens who wished the law would save Antonio without breaking itself.",
+      "marks": [
+        {
+          "word": "court",
+          "index": 1,
+          "definition": "法庭",
+          "is_new": true
+        },
+        {
+          "word": "law",
+          "index": 13,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Duke",
+      "text": "Shylock, everyone expects a gentle answer. Take money, show mercy, and let the penalty sleep.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 9,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "penalty",
+          "index": 13,
+          "definition": "惩罚",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "I have sworn an oath. I want the penalty written in the bond. Ask me no reasons beyond my will.",
+      "marks": [
+        {
+          "word": "penalty",
+          "index": 8,
+          "definition": "惩罚",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "Do not argue with a stone tide. I am ready.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio offered twice the debt, then ten times, but Shylock refused each sum. Justice, he said, was his purchase.",
+      "marks": [
+        {
+          "word": "justice",
+          "index": 13,
+          "definition": "正义",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "I beg the court to bend the law once and save a good man.",
+      "marks": [
+        {
+          "word": "court",
+          "index": 3,
+          "definition": "法庭",
+          "is_new": false
+        },
+        {
+          "word": "law",
+          "index": 7,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "A young doctor of law entered with a letter from Bellario. It was Portia in disguise, carrying a calm face and a prepared mind.",
+      "marks": [
+        {
+          "word": "law",
+          "index": 4,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Which is the merchant here, and which the Jew?",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "She read the bond and admitted that Venetian law gave Shylock a claim. Bassanio stared at the young judge without recognizing his wife.",
+      "marks": [
+        {
+          "word": "law",
+          "index": 8,
+          "definition": "法律",
+          "is_new": false
+        },
+        {
+          "word": "judge",
+          "index": 18,
+          "definition": "法官",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then Shylock must be merciful.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "On what compulsion must I?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "The quality of mercy is not strained. It falls like a gentle drop from heaven and can bless both giver and receiver.",
+      "marks": [
+        {
+          "word": "quality",
+          "index": 1,
+          "definition": "品质",
+          "is_new": true
+        },
+        {
+          "word": "mercy",
+          "index": 3,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "drop",
+          "index": 12,
+          "definition": "滴落",
+          "is_new": true
+        },
+        {
+          "word": "bless",
+          "index": 17,
+          "definition": "祝福",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Her speech changed the air, but not Shylock. He praised her wisdom only when she confirmed the strict letter of the contract.",
+      "marks": [
+        {
+          "word": "strict",
+          "index": 17,
+          "definition": "严格的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "A Daniel come to judgment. Wise young judge, give me my penalty.",
+      "marks": [
+        {
+          "word": "judge",
+          "index": 7,
+          "definition": "法官",
+          "is_new": false
+        },
+        {
+          "word": "penalty",
+          "index": 11,
+          "definition": "惩罚",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Antonio, prepare your breast. The court awards the pound of flesh.",
+      "marks": [
+        {
+          "word": "court",
+          "index": 5,
+          "definition": "法庭",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Take my life instead, my wife, all I have. Only save him.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia heard the wild offer and stored it away. Love spoke loudly, but the ring on Bassanio's finger remained to be tested.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Shylock, have a surgeon near, at your charge, to stop the blood.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "Is it so nominated in the bond?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "It is not. Then proceed. But pause one moment. This bond gives no drop of blood.",
+      "marks": [
+        {
+          "word": "drop",
+          "index": 13,
+          "definition": "滴落",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Shylock sharpened his knife in public view. The sound made Bassanio flinch, but Antonio seemed almost peaceful, as if resistance were already spent.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "Give him his penalty. I am a tainted wether of the flock, meetest for death.",
+      "marks": [
+        {
+          "word": "penalty",
+          "index": 3,
+          "definition": "惩罚",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "The court must honor law, or Venice loses the trust on which its commerce stands.",
+      "marks": [
+        {
+          "word": "court",
+          "index": 1,
+          "definition": "法庭",
+          "is_new": false
+        },
+        {
+          "word": "law",
+          "index": 4,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "That sentence frightened Bassanio because it sounded like defeat. Portia let the fear grow until Shylock trusted her strict judgment completely.",
+      "marks": [
+        {
+          "word": "strict",
+          "index": 18,
+          "definition": "严格的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "Most learned judge, a sentence! Come, prepare.",
+      "marks": [
+        {
+          "word": "judge",
+          "index": 2,
+          "definition": "法官",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "The bond is clear about flesh. It is silent about blood. Let justice keep to its own quality.",
+      "marks": [
+        {
+          "word": "justice",
+          "index": 12,
+          "definition": "正义",
+          "is_new": false
+        },
+        {
+          "word": "quality",
+          "index": 17,
+          "definition": "品质",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Only then did the room understand that exact words could protect life as fiercely as they had threatened it.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The drop of blood became the hinge of the trial, small enough to miss and strong enough to turn the whole court.",
+      "marks": [
+        {
+          "word": "drop",
+          "index": 1,
+          "definition": "滴落",
+          "is_new": false
+        },
+        {
+          "word": "court",
+          "index": 21,
+          "definition": "法庭",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The Duke wanted mercy without knowing how to command it. Bassanio wanted justice bent without admitting that such bending could endanger every contract.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 3,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "justice",
+          "index": 12,
+          "definition": "正义",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "A court cannot live by pity alone. If mercy comes, it must enter without destroying law.",
+      "marks": [
+        {
+          "word": "court",
+          "index": 1,
+          "definition": "法庭",
+          "is_new": false
+        },
+        {
+          "word": "mercy",
+          "index": 8,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "law",
+          "index": 15,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "That was Portia's genius. She did not defeat Shylock by ignoring strict words; she defeated him by reading them more strictly than he did.",
+      "marks": [
+        {
+          "word": "strict",
+          "index": 11,
+          "definition": "严格的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "I stand for judgment. Let no one soften what I have purchased.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The knife, the scales, and the silent crowd turned abstract justice into something physical, immediate, and terrifying.",
+      "marks": [
+        {
+          "word": "justice",
+          "index": 10,
+          "definition": "正义",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Every person in the court wanted an outcome, but Portia needed a method. Without method, mercy would look like favoritism and justice like murder.",
+      "marks": [
+        {
+          "word": "court",
+          "index": 4,
+          "definition": "法庭",
+          "is_new": false
+        },
+        {
+          "word": "mercy",
+          "index": 15,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "justice",
+          "index": 21,
+          "definition": "正义",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Stand ready, Antonio. Stand ready, Shylock. The words you signed are about to speak for themselves.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The whole room leaned toward the bond.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "court",
+      "definition": "法庭",
+      "is_new": true
+    },
+    {
+      "word": "law",
+      "definition": "法律",
+      "is_new": false
+    },
+    {
+      "word": "mercy",
+      "definition": "怜悯",
+      "is_new": false
+    },
+    {
+      "word": "penalty",
+      "definition": "惩罚",
+      "is_new": true
+    },
+    {
+      "word": "justice",
+      "definition": "正义",
+      "is_new": true
+    },
+    {
+      "word": "judge",
+      "definition": "法官",
+      "is_new": true
+    },
+    {
+      "word": "quality",
+      "definition": "品质",
+      "is_new": true
+    },
+    {
+      "word": "drop",
+      "definition": "滴落",
+      "is_new": true
+    },
+    {
+      "word": "bless",
+      "definition": "祝福",
+      "is_new": true
+    },
+    {
+      "word": "strict",
+      "definition": "严格的",
+      "is_new": true
+    }
+  ]
+}

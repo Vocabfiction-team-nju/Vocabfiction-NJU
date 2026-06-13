@@ -53,6 +53,14 @@ function tokenizeText(text: string): string[] {
   return text.split(/\s+/).filter(Boolean);
 }
 
+export function countPlanningWords(text: string): number {
+  return countWords(text);
+}
+
+export function tokenizePlanningText(text: string): string[] {
+  return tokenizeText(text);
+}
+
 export interface ArcPlannerConfig {
   episodes_per_arc: number;
   max_episode_words: number;

@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "ep": 3,
+    "title": "News of Loss",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "Venice soon filled with rumor. One ship from Tripolis was lost, then another from Mexico, then reports from the English coast darkened the Rialto.",
+      "marks": [
+        {
+          "word": "rumor",
+          "index": 4,
+          "definition": "谣言",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Salerio",
+      "text": "Antonio's argosy may have struck the Goodwins. If that is true, his debt to Shylock becomes deadly.",
+      "marks": [
+        {
+          "word": "debt",
+          "index": 12,
+          "definition": "债务",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Solanio",
+      "text": "And Shylock runs through the streets crying for his daughter, his ducats, and his jewels in the same breath.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Shylock heard laughter in their pity. Jessica's escape had become public entertainment, and Antonio's loss became his possible revenge.",
+      "marks": [
+        {
+          "word": "escape",
+          "index": 7,
+          "definition": "逃离",
+          "is_new": false
+        },
+        {
+          "word": "loss",
+          "index": 14,
+          "definition": "损失",
+          "is_new": true
+        },
+        {
+          "word": "revenge",
+          "index": 18,
+          "definition": "复仇",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "You ask why I hate him. He mocked my nation, cooled my friends, heated my enemies, and hindered my bargains.",
+      "marks": [
+        {
+          "word": "nation",
+          "index": 9,
+          "definition": "民族, 国家",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Salerio",
+      "text": "Surely you will not take his flesh if he cannot pay. What use is it?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "To feed my revenge. If you prick us, do we not bleed? If you wrong us, shall we not answer?",
+      "marks": [
+        {
+          "word": "revenge",
+          "index": 3,
+          "definition": "复仇",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "His words forced Venice to hear a human claim inside a cruel intention. Equal wounds did not make equal mercy.",
+      "marks": [
+        {
+          "word": "human",
+          "index": 7,
+          "definition": "人类的",
+          "is_new": true
+        },
+        {
+          "word": "equal",
+          "index": 13,
+          "definition": "平等的",
+          "is_new": true
+        },
+        {
+          "word": "equal",
+          "index": 18,
+          "definition": "平等的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Tubal arrived with mixed news: more losses for Antonio, and Jessica spending Shylock's money carelessly in Genoa.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Tubal",
+      "text": "One of Antonio's creditors told me a ship was wrecked. Also, your daughter traded a ring for a monkey.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "That ring was Leah's before I married. I would not have given it for a wilderness of monkeys.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Grief and greed tangled until no one could separate them. The more Shylock hurt, the more fiercely he held the bond.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "Let Antonio look to his contract. I will have the penalty. I will not delay.",
+      "marks": [
+        {
+          "word": "delay",
+          "index": 14,
+          "definition": "延迟",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Meanwhile Bassanio reached Belmont. Portia wished to delay his choice, fearing that one wrong box would send him away forever.",
+      "marks": [
+        {
+          "word": "delay",
+          "index": 7,
+          "definition": "延迟",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Pause a day or two. If you choose wrong, I lose your company.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Let me choose. Living with uncertainty is its own torture.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Music began. Bassanio studied the caskets, remembering that appearance cheats and bright promises often purchase shame.",
+      "marks": [
+        {
+          "word": "purchase",
+          "index": 14,
+          "definition": "购买",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Gold and silver speak too loudly. Give me the poor lead that threatens rather than promises.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "His hand moved toward the plain casket, while in Venice Antonio's losses moved toward the court.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Love waited on one lid; revenge waited on one bond; and both cities held their breath.",
+      "marks": [
+        {
+          "word": "revenge",
+          "index": 5,
+          "definition": "复仇",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The rumor of Antonio's loss traveled faster than any confirmed report. In a trading city, fear itself could become a kind of currency.",
+      "marks": [
+        {
+          "word": "rumor",
+          "index": 1,
+          "definition": "谣言",
+          "is_new": false
+        },
+        {
+          "word": "loss",
+          "index": 4,
+          "definition": "损失",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "He laughed at my bargains when his ships were proud. Let him learn what a debt means when the sea turns.",
+      "marks": [
+        {
+          "word": "debt",
+          "index": 15,
+          "definition": "债务",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Tubal did not comfort him. Each fact arrived with another wound: a ship lost, a jewel spent, a daughter beyond reach.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Tubal",
+      "text": "Other men speak of Antonio with pity. They say no merchant can stand if every venture fails together.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "In Belmont, Portia tried to delay because love had made her cautious. Bassanio heard delay as torture because hope had made him brave.",
+      "marks": [
+        {
+          "word": "delay",
+          "index": 5,
+          "definition": "延迟",
+          "is_new": false
+        },
+        {
+          "word": "delay",
+          "index": 14,
+          "definition": "延迟",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "If I wait, each hour will choose for me. Let my hand risk loss while my heart is honest.",
+      "marks": [
+        {
+          "word": "loss",
+          "index": 13,
+          "definition": "损失",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Shylock's revenge grew from injuries that Venice preferred not to count. The play lets him speak those injuries even as it shows his cruelty.",
+      "marks": [
+        {
+          "word": "revenge",
+          "index": 1,
+          "definition": "复仇",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "You taught me how to answer harm. Do not complain when the lesson returns.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The rumor of loss therefore became more than business news; it became permission for old anger to step into daylight.",
+      "marks": [
+        {
+          "word": "rumor",
+          "index": 1,
+          "definition": "谣言",
+          "is_new": false
+        },
+        {
+          "word": "loss",
+          "index": 3,
+          "definition": "损失",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio did not hear the worst of the rumor until after hope had opened before him. Shakespeare lets joy and danger arrive almost together.",
+      "marks": [
+        {
+          "word": "rumor",
+          "index": 8,
+          "definition": "谣言",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Choose, then. If music cannot calm me, perhaps truth will.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The lead casket waited while Venice tightened around Antonio.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "rumor",
+      "definition": "谣言",
+      "is_new": true
+    },
+    {
+      "word": "debt",
+      "definition": "债务",
+      "is_new": false
+    },
+    {
+      "word": "escape",
+      "definition": "逃离",
+      "is_new": false
+    },
+    {
+      "word": "loss",
+      "definition": "损失",
+      "is_new": true
+    },
+    {
+      "word": "revenge",
+      "definition": "复仇",
+      "is_new": true
+    },
+    {
+      "word": "nation",
+      "definition": "民族, 国家",
+      "is_new": true
+    },
+    {
+      "word": "human",
+      "definition": "人类的",
+      "is_new": true
+    },
+    {
+      "word": "equal",
+      "definition": "平等的",
+      "is_new": true
+    },
+    {
+      "word": "delay",
+      "definition": "延迟",
+      "is_new": true
+    },
+    {
+      "word": "purchase",
+      "definition": "购买",
+      "is_new": true
+    }
+  ]
+}

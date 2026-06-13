@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "ep": 1,
+    "title": "The Bond",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "Venice lived by commerce, ships, credit, and reputation. Antonio was loved in that city because his money moved freely when friends were in need.",
+      "marks": [
+        {
+          "word": "commerce",
+          "index": 3,
+          "definition": "商业",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Yet he began this story sad without knowing why. His ships were at sea, but his heart felt heavier than any cargo.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Antonio, I owe more debt than honor allows, but I know a way to restore both.",
+      "marks": [
+        {
+          "word": "debt",
+          "index": 4,
+          "definition": "债务",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "Then speak. My purse and my person are open to you.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "In Belmont lives Portia, a lady of great fortune and greater virtue. Many suitors seek her, but I believe I may win her.",
+      "marks": [
+        {
+          "word": "fortune",
+          "index": 8,
+          "definition": "财富",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "My ready money is at sea. Still, use my credit and borrow what you need in Venice.",
+      "marks": [
+        {
+          "word": "borrow",
+          "index": 11,
+          "definition": "借入",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio went to Shylock, a Jewish moneylender who had long suffered insults from Antonio and answered them with cold patience.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "Three thousand ducats for three months. Antonio shall be bound. But should he fail, the bond will name a pound of flesh.",
+      "marks": [
+        {
+          "word": "bond",
+          "index": 15,
+          "definition": "契约, 债券",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "That contract is monstrous. No friend should sign such risk for my courtship.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 1,
+          "definition": "合同",
+          "is_new": true
+        },
+        {
+          "word": "risk",
+          "index": 9,
+          "definition": "风险",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "My ships return before the date. The risk is a joke, and Shylock may learn mercy through kindness.",
+      "marks": [
+        {
+          "word": "risk",
+          "index": 7,
+          "definition": "风险",
+          "is_new": false
+        },
+        {
+          "word": "mercy",
+          "index": 15,
+          "definition": "怜悯",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "Mercy? You spit on my coat, call me dog, and then ask for money. Let the bond be our proper friendship.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 0,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "bond",
+          "index": 16,
+          "definition": "契约, 债券",
+          "is_new": false
+        },
+        {
+          "word": "proper",
+          "index": 19,
+          "definition": "合适的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Antonio signed. Bassanio disliked the bond, but need and hope pressed him toward Belmont.",
+      "marks": [
+        {
+          "word": "bond",
+          "index": 5,
+          "definition": "契约, 债券",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Far from Venice, Portia faced a different contract made by her dead father. She could not choose her husband freely.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 7,
+          "definition": "合同",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "My fortune is large, Nerissa, but my choice is locked in three caskets. Gold, silver, and lead decide my life.",
+      "marks": [
+        {
+          "word": "fortune",
+          "index": 1,
+          "definition": "财富",
+          "is_new": false
+        },
+        {
+          "word": "choice",
+          "index": 7,
+          "definition": "选择",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "Your father was wise. The proper man will choose by character, not by show.",
+      "marks": [
+        {
+          "word": "proper",
+          "index": 5,
+          "definition": "合适的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then let wisdom hurry. I am tired of princes who admire themselves before they greet me.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Thus two plots began: a bond in Venice and a choice in Belmont. One measured flesh, the other measured love.",
+      "marks": [
+        {
+          "word": "bond",
+          "index": 5,
+          "definition": "契约, 债券",
+          "is_new": false
+        },
+        {
+          "word": "choice",
+          "index": 10,
+          "definition": "选择",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Neither Antonio nor Portia yet knew how closely mercy and risk would bind their fortunes together.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 8,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "risk",
+          "index": 10,
+          "definition": "风险",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "I will go with gratitude and fear. If I fail, the debt is more than money.",
+      "marks": [
+        {
+          "word": "debt",
+          "index": 11,
+          "definition": "债务",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Antonio smiled as though friendship could make any contract harmless, and Venice believed him because his ships still rode the sea.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 8,
+          "definition": "合同",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Antonio had lent money without interest and called that generosity. Shylock saw the same habit as an attack on his commerce and his dignity.",
+      "marks": [
+        {
+          "word": "commerce",
+          "index": 20,
+          "definition": "商业",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "You weaken my trade, then come to my door. Should I bend because your need has become polite?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "I am as likely to call you so again. Lend as to an enemy, if that suits you better.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The bitterness in that answer made the bond darker, but Antonio still trusted fortune. His confidence persuaded Bassanio against his fear.",
+      "marks": [
+        {
+          "word": "bond",
+          "index": 7,
+          "definition": "契约, 债券",
+          "is_new": false
+        },
+        {
+          "word": "fortune",
+          "index": 13,
+          "definition": "财富",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "In Belmont, Portia named each suitor with wit, yet the laughter could not unlock her choice. Her father's will ruled even after death.",
+      "marks": [
+        {
+          "word": "choice",
+          "index": 15,
+          "definition": "选择",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "If doing nothing were proper obedience, I would be the most obedient woman in Italy.",
+      "marks": [
+        {
+          "word": "proper",
+          "index": 4,
+          "definition": "合适的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio understood that friendship had become security for his desire. That knowledge did not stop him, but it made every borrowed ducat feel personal.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "If I win Portia, I must repay more than debt. I must prove Antonio right to trust me.",
+      "marks": [
+        {
+          "word": "debt",
+          "index": 9,
+          "definition": "债务",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The bond therefore entered the story as both joke and threat. Antonio heard the joke because he trusted ships; Shylock kept the threat because he remembered insults.",
+      "marks": [
+        {
+          "word": "bond",
+          "index": 1,
+          "definition": "契约, 债券",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "Call it merry if you like. I call it written.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "commerce",
+      "definition": "商业",
+      "is_new": true
+    },
+    {
+      "word": "debt",
+      "definition": "债务",
+      "is_new": true
+    },
+    {
+      "word": "fortune",
+      "definition": "财富",
+      "is_new": true
+    },
+    {
+      "word": "borrow",
+      "definition": "借入",
+      "is_new": true
+    },
+    {
+      "word": "bond",
+      "definition": "契约, 债券",
+      "is_new": true
+    },
+    {
+      "word": "contract",
+      "definition": "合同",
+      "is_new": true
+    },
+    {
+      "word": "risk",
+      "definition": "风险",
+      "is_new": true
+    },
+    {
+      "word": "mercy",
+      "definition": "怜悯",
+      "is_new": true
+    },
+    {
+      "word": "proper",
+      "definition": "合适的",
+      "is_new": true
+    },
+    {
+      "word": "choice",
+      "definition": "选择",
+      "is_new": true
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "ep": 9,
+    "title": "The Snake at the Wall",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "That afternoon I finished the repair. The engine answered at last, and its rough noise should have filled me with peace.",
+      "marks": [
+        {
+          "word": "peace",
+          "index": 20,
+          "definition": "和平, 安宁",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Instead I found the little prince sitting on a broken wall, speaking to the snake as if to an old appointment.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Tonight is the anniversary of my fall to Earth. My star will be above this place.",
+      "marks": [
+        {
+          "word": "anniversary",
+          "index": 3,
+          "definition": "周年纪念日",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Snake",
+      "text": "I will be there. Your body is too heavy for the journey.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "What does he mean by heavy? Why are you talking to that creature?",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The snake slipped away. The prince looked pale, but calm, as though he had spent the day learning how to prepare goodbye.",
+      "marks": [
+        {
+          "word": "prepare",
+          "index": 20,
+          "definition": "准备",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "You have your machine now. You can go home. I can go home too.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Not like this. I will not leave you with poison and riddles.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "It will look like death, but it will not be true. The physical shell cannot travel so far.",
+      "marks": [
+        {
+          "word": "physical",
+          "index": 12,
+          "definition": "身体的, 物质的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He asked me to understand, yet every word made understanding harder. A friend should remain visible. A friend should not fall silent.",
+      "marks": [
+        {
+          "word": "remain",
+          "index": 14,
+          "definition": "留下, 仍然",
+          "is_new": true
+        },
+        {
+          "word": "silent",
+          "index": 21,
+          "definition": "沉默的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "When you look at the stars, one of them will be where I live. All stars will laugh for you.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I do not want laughing stars. I want you here, alive.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He touched my hand. His courage was not a game. He felt responsible for a rose who waited under a glass shelter.",
+      "marks": [
+        {
+          "word": "responsible",
+          "index": 12,
+          "definition": "有责任的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "My rose is precious. I must return. I made a promise without knowing its full weight.",
+      "marks": [
+        {
+          "word": "precious",
+          "index": 3,
+          "definition": "珍贵的",
+          "is_new": false
+        },
+        {
+          "word": "promise",
+          "index": 10,
+          "definition": "承诺",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The word sacrifice came to me, though he never used it. He was giving up the comfort of being seen in order to keep faith with what was unseen.",
+      "marks": [
+        {
+          "word": "sacrifice",
+          "index": 2,
+          "definition": "牺牲",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Night rose around us. He walked toward the appointed place with small steady steps, and I followed though my heart resisted each one.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "You must not watch if it frightens you. It will be like an old bark falling from a tree.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I will not leave you alone.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "There was a yellow flash near his ankle. He made no cry. He fell gently, as silent as a tree falls in sand.",
+      "marks": [
+        {
+          "word": "silent",
+          "index": 16,
+          "definition": "沉默的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "At dawn, his body was gone. The desert held only tracks, stars, and a peace too large for me to accept.",
+      "marks": [
+        {
+          "word": "peace",
+          "index": 14,
+          "definition": "和平, 安宁",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I wanted to argue like an adult, with reasons, plans, and physical facts. He answered from a place where responsibility mattered more than proof.",
+      "marks": [
+        {
+          "word": "physical",
+          "index": 11,
+          "definition": "身体的, 物质的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If I remain here, my rose remains alone. If I go, you will think I have vanished. Both things hurt.",
+      "marks": [
+        {
+          "word": "remain",
+          "index": 2,
+          "definition": "留下, 仍然",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Then choose the hurt that lets you live. A promise should not ask for your body.",
+      "marks": [
+        {
+          "word": "promise",
+          "index": 9,
+          "definition": "承诺",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "The body is only the heavy part. The promise is the part that knows the way.",
+      "marks": [
+        {
+          "word": "promise",
+          "index": 8,
+          "definition": "承诺",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Those words brought no peace to me. They made his sacrifice sound gentle, which was almost worse than fear.",
+      "marks": [
+        {
+          "word": "peace",
+          "index": 4,
+          "definition": "和平, 安宁",
+          "is_new": false
+        },
+        {
+          "word": "sacrifice",
+          "index": 10,
+          "definition": "牺牲",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "When he fell, the desert did not shout. Its silence made the moment larger, as if even the stars had agreed to remain still.",
+      "marks": [
+        {
+          "word": "remain",
+          "index": 22,
+          "definition": "留下, 仍然",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I looked for tracks, for any physical sign that would let me deny what happened. The sand offered nothing certain.",
+      "marks": [
+        {
+          "word": "physical",
+          "index": 6,
+          "definition": "身体的, 物质的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "If this is peace, it is a peace that hurts.",
+      "marks": [
+        {
+          "word": "peace",
+          "index": 3,
+          "definition": "和平, 安宁",
+          "is_new": false
+        },
+        {
+          "word": "peace",
+          "index": 7,
+          "definition": "和平, 安宁",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Yet the absence of his body also carried wonder. The desert had become a border, not merely a grave.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "I could not decide whether he was brave or impossibly young. Perhaps he was both, and perhaps love often looks like both at once.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Do not come with anger in your heart. The stars will need room to laugh.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "That request was almost unbearable, because it asked me to prepare for wonder while standing beside fear.",
+      "marks": [
+        {
+          "word": "prepare",
+          "index": 10,
+          "definition": "准备",
+          "is_new": false
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "peace",
+      "definition": "和平, 安宁",
+      "is_new": true
+    },
+    {
+      "word": "anniversary",
+      "definition": "周年纪念日",
+      "is_new": true
+    },
+    {
+      "word": "prepare",
+      "definition": "准备",
+      "is_new": true
+    },
+    {
+      "word": "physical",
+      "definition": "身体的, 物质的",
+      "is_new": true
+    },
+    {
+      "word": "remain",
+      "definition": "留下, 仍然",
+      "is_new": true
+    },
+    {
+      "word": "silent",
+      "definition": "沉默的",
+      "is_new": true
+    },
+    {
+      "word": "responsible",
+      "definition": "有责任的",
+      "is_new": false
+    },
+    {
+      "word": "precious",
+      "definition": "珍贵的",
+      "is_new": false
+    },
+    {
+      "word": "promise",
+      "definition": "承诺",
+      "is_new": true
+    },
+    {
+      "word": "sacrifice",
+      "definition": "牺牲",
+      "is_new": true
+    }
+  ]
+}

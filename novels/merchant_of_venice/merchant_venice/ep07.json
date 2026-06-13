@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "ep": 7,
+    "title": "No Drop of Blood",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "The court froze. Portia held the contract as if it were a blade that could turn in the hand that carried it.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 6,
+          "definition": "合同",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Take your pound of flesh. But if you shed one drop of Christian blood, your property is confiscate by the laws of Venice.",
+      "marks": [
+        {
+          "word": "property",
+          "index": 15,
+          "definition": "财产",
+          "is_new": true
+        },
+        {
+          "word": "confiscate",
+          "index": 17,
+          "definition": "没收",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "Then I will take the money. Pay me three times the debt and let me go.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "You refused it in open court. You asked for justice; you shall have justice more exact than you desired.",
+      "marks": [
+        {
+          "word": "justice",
+          "index": 9,
+          "definition": "正义",
+          "is_new": false
+        },
+        {
+          "word": "justice",
+          "index": 13,
+          "definition": "正义",
+          "is_new": false
+        },
+        {
+          "word": "exact",
+          "index": 15,
+          "definition": "准确的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Shylock tried to leave with only the principal. Portia stopped him again. The legal trap had not finished closing.",
+      "marks": [
+        {
+          "word": "legal",
+          "index": 13,
+          "definition": "法律的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "If an alien seeks the life of a citizen, half his property goes to the victim and half to the state. His life rests with the Duke.",
+      "marks": [
+        {
+          "word": "citizen",
+          "index": 8,
+          "definition": "公民",
+          "is_new": true
+        },
+        {
+          "word": "property",
+          "index": 11,
+          "definition": "财产",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The threat of death moved from Antonio to Shylock. Venice watched the man who wanted a sentence become the man awaiting one.",
+      "marks": [
+        {
+          "word": "threat",
+          "index": 1,
+          "definition": "威胁",
+          "is_new": true
+        },
+        {
+          "word": "sentence",
+          "index": 16,
+          "definition": "判决",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Duke",
+      "text": "I pardon your life before you ask. Half your wealth is the state's; half belongs to Antonio.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "Let me hold my half in trust for Lorenzo and Jessica. Let Shylock convert and leave them his estate.",
+      "marks": [
+        {
+          "word": "convert",
+          "index": 13,
+          "definition": "转变, 皈依",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The mercy was real, but it was also severe. Shylock kept his life and lost authority over nearly everything else.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Shylock",
+      "text": "I am not well. Send the deed after me, and I will sign.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He left the court diminished, neither villain only nor victim only, carrying a punishment shaped by the society that hated him.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Antonio stood free. Bassanio overflowed with gratitude toward the young judge who had saved his friend by honoring the contract exactly.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 19,
+          "definition": "合同",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Take anything from me. I cannot pay what your wisdom deserves.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "I am satisfied. Yet as a remembrance, I ask for your gloves and that ring.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "This ring, good sir, was given by my wife. I swore never to part with it.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "And I thought you generous. Keep it, then, if your promise weighs more than gratitude.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "She departed with controlled offense. Gratiano soon followed after Bassanio, carrying the ring Antonio urged him to send.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Justice had saved Antonio, but another small trial had begun in the shadow of the great one.",
+      "marks": [
+        {
+          "word": "justice",
+          "index": 0,
+          "definition": "正义",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The exact words of one contract were finished. The exact words of one marriage promise were about to matter.",
+      "marks": [
+        {
+          "word": "exact",
+          "index": 1,
+          "definition": "准确的",
+          "is_new": false
+        },
+        {
+          "word": "contract",
+          "index": 5,
+          "definition": "合同",
+          "is_new": false
+        },
+        {
+          "word": "exact",
+          "index": 9,
+          "definition": "准确的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Shylock had demanded the contract without mercy, so Portia answered with legal precision rather than open softness. The reversal felt terrible and brilliant.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 4,
+          "definition": "合同",
+          "is_new": false
+        },
+        {
+          "word": "legal",
+          "index": 11,
+          "definition": "法律的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "You stand within his danger now. The law you invoked has another edge, and it is exact.",
+      "marks": [
+        {
+          "word": "exact",
+          "index": 16,
+          "definition": "准确的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Antonio chose conditions that looked merciful beside death but harsh beside freedom. The court accepted them because Venice wanted order restored.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "I ask not for his life. Let property become provision for the daughter he cast away.",
+      "marks": [
+        {
+          "word": "property",
+          "index": 7,
+          "definition": "财产",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "No one in the room received a simple victory. Justice released Antonio, wounded Shylock, enriched Jessica, and exposed every old hatred underneath.",
+      "marks": [
+        {
+          "word": "justice",
+          "index": 9,
+          "definition": "正义",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "If gratitude could purchase your reward, learned doctor, I would spend all Portia gave me.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia heard the opening she needed. The great sentence ended; the smaller sentence of the ring could now begin.",
+      "marks": [
+        {
+          "word": "sentence",
+          "index": 8,
+          "definition": "判决",
+          "is_new": false
+        },
+        {
+          "word": "sentence",
+          "index": 12,
+          "definition": "判决",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio did not yet recognize Portia, but he had begun to depend on her mind. The irony would become clear only in Belmont.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "I am free, yet not light. A man can be released and still carry the court inside him.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "After Shylock left, the court did not celebrate loudly. The victory had too much damage inside it, and Portia knew the silence mattered.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Go, Antonio. Your life is restored, but let the memory of this edge remain useful.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Then she turned the scene toward rings, where private promises could be weighed after public danger.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "contract",
+      "definition": "合同",
+      "is_new": false
+    },
+    {
+      "word": "property",
+      "definition": "财产",
+      "is_new": true
+    },
+    {
+      "word": "confiscate",
+      "definition": "没收",
+      "is_new": true
+    },
+    {
+      "word": "justice",
+      "definition": "正义",
+      "is_new": false
+    },
+    {
+      "word": "exact",
+      "definition": "准确的",
+      "is_new": true
+    },
+    {
+      "word": "legal",
+      "definition": "法律的",
+      "is_new": true
+    },
+    {
+      "word": "citizen",
+      "definition": "公民",
+      "is_new": true
+    },
+    {
+      "word": "threat",
+      "definition": "威胁",
+      "is_new": true
+    },
+    {
+      "word": "sentence",
+      "definition": "判决",
+      "is_new": true
+    },
+    {
+      "word": "convert",
+      "definition": "转变, 皈依",
+      "is_new": true
+    }
+  ]
+}

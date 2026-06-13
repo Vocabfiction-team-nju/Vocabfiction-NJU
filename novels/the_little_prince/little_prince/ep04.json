@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "ep": 4,
+    "title": "Adults on Their Thrones",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "The first planet he visited belonged to a king who sat on a robe so wide it covered nearly all the ground.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "King",
+      "text": "Ah, here is a subject. Approach so I may see you better.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "How can you recognize me as a subject when you have never seen me?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "King",
+      "text": "All men are subjects to a king. Authority is simple when one understands command.",
+      "marks": [
+        {
+          "word": "authority",
+          "index": 7,
+          "definition": "权威",
+          "is_new": true
+        },
+        {
+          "word": "command",
+          "index": 13,
+          "definition": "命令",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The king was not unkind. He believed his authority wise because he only ordered things that would happen anyway.",
+      "marks": [
+        {
+          "word": "authority",
+          "index": 8,
+          "definition": "权威",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "King",
+      "text": "I command you to yawn if you wish. I command the sun to set when the proper hour arrives.",
+      "marks": [
+        {
+          "word": "command",
+          "index": 1,
+          "definition": "命令",
+          "is_new": false
+        },
+        {
+          "word": "command",
+          "index": 9,
+          "definition": "命令",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The little prince found this serious and ridiculous at once. He asked to see a sunset, but the king checked a large calendar.",
+      "marks": [
+        {
+          "word": "serious",
+          "index": 5,
+          "definition": "严肃的",
+          "is_new": true
+        },
+        {
+          "word": "ridiculous",
+          "index": 7,
+          "definition": "荒谬的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "King",
+      "text": "The sunset will occur at seven forty. My command will be obeyed exactly then.",
+      "marks": [
+        {
+          "word": "command",
+          "index": 8,
+          "definition": "命令",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The next planet held a vain man with a shining hat. He bowed whenever the prince clapped.",
+      "marks": [
+        {
+          "word": "vain",
+          "index": 5,
+          "definition": "虚荣的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Vain Man",
+      "text": "Admire me. I am the finest, richest, and most intelligent man on this planet.",
+      "marks": [
+        {
+          "word": "admire",
+          "index": 0,
+          "definition": "钦佩, 欣赏",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "But you are the only man on this planet.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Vain Man",
+      "text": "That makes admiration easier. Clap again.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The prince left quickly. Pride without friendship felt empty, and praise requested by force sounded like wind in a bottle.",
+      "marks": [
+        {
+          "word": "pride",
+          "index": 4,
+          "definition": "骄傲",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "On the next planet a drunkard sat among many empty bottles. His face carried shame before he even spoke.",
+      "marks": [
+        {
+          "word": "shame",
+          "index": 14,
+          "definition": "羞愧",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Why do you drink?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Drunkard",
+      "text": "To forget that I am ashamed.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Ashamed of what?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Drunkard",
+      "text": "Ashamed of drinking.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "This circle made the prince sad. The next adult was a businessman who claimed to possess the stars because he could calculate their number.",
+      "marks": [
+        {
+          "word": "possess",
+          "index": 15,
+          "definition": "拥有",
+          "is_new": true
+        },
+        {
+          "word": "calculate",
+          "index": 21,
+          "definition": "计算",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Businessman",
+      "text": "I am serious. I count, write totals, lock the paper, and own five hundred million stars.",
+      "marks": [
+        {
+          "word": "serious",
+          "index": 2,
+          "definition": "严肃的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "What good is it to possess stars if you never care for them?",
+      "marks": [
+        {
+          "word": "possess",
+          "index": 5,
+          "definition": "拥有",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The businessman had no answer beyond another calculation. The little prince missed his rose, who was vain, but at least alive.",
+      "marks": [
+        {
+          "word": "vain",
+          "index": 16,
+          "definition": "虚荣的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The king interested him longer than the others because the king at least believed command should fit reality. That made his authority lonely rather than merely foolish.",
+      "marks": [
+        {
+          "word": "command",
+          "index": 14,
+          "definition": "命令",
+          "is_new": false
+        },
+        {
+          "word": "authority",
+          "index": 21,
+          "definition": "权威",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "King",
+      "text": "If I command a general to become a seabird and he fails, the fault is mine. Authority must be reasonable.",
+      "marks": [
+        {
+          "word": "command",
+          "index": 2,
+          "definition": "命令",
+          "is_new": false
+        },
+        {
+          "word": "authority",
+          "index": 16,
+          "definition": "权威",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Then command yourself to be less alone.",
+      "marks": [
+        {
+          "word": "command",
+          "index": 1,
+          "definition": "命令",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The king did not answer quickly. On the next planet, the vain man had no such silence; he heard only applause, even before it came.",
+      "marks": [
+        {
+          "word": "vain",
+          "index": 11,
+          "definition": "虚荣的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Vain Man",
+      "text": "Clap, and I shall lift my hat. Admire, and I shall know you are a man of taste.",
+      "marks": [
+        {
+          "word": "admire",
+          "index": 7,
+          "definition": "钦佩, 欣赏",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The drunkard frightened the prince more quietly. Shame had made a prison with no door, and each bottle pretended to be a key.",
+      "marks": [
+        {
+          "word": "shame",
+          "index": 7,
+          "definition": "羞愧",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "By the time the businessman began to calculate stars, the prince had learned that adult seriousness could become ridiculous when it forgot care.",
+      "marks": [
+        {
+          "word": "calculate",
+          "index": 7,
+          "definition": "计算",
+          "is_new": false
+        },
+        {
+          "word": "ridiculous",
+          "index": 18,
+          "definition": "荒谬的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Each adult seemed trapped inside one word: command, admire, shame, calculate. The prince carried away those words like samples from empty planets.",
+      "marks": [
+        {
+          "word": "command",
+          "index": 7,
+          "definition": "命令",
+          "is_new": false
+        },
+        {
+          "word": "admire",
+          "index": 8,
+          "definition": "钦佩, 欣赏",
+          "is_new": false
+        },
+        {
+          "word": "shame",
+          "index": 9,
+          "definition": "羞愧",
+          "is_new": false
+        },
+        {
+          "word": "calculate",
+          "index": 10,
+          "definition": "计算",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Grown-ups are very strange when one idea becomes their whole sky.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Even the businessman looked poor while claiming stars. He possessed numbers, but he had no sunrise, no flower, and no one to miss him.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Businessman",
+      "text": "I am too busy for sunrise. I have totals to protect.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Those visits did not make him wiser all at once. They made him suspicious of wisdom that never kneels down to water anything.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "A star should belong to someone who can love its light, not only write its number.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "So each planet pushed him onward, away from hollow authority and toward the harder authority of care.",
+      "marks": [
+        {
+          "word": "authority",
+          "index": 9,
+          "definition": "权威",
+          "is_new": false
+        },
+        {
+          "word": "authority",
+          "index": 14,
+          "definition": "权威",
+          "is_new": false
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "authority",
+      "definition": "权威",
+      "is_new": true
+    },
+    {
+      "word": "command",
+      "definition": "命令",
+      "is_new": true
+    },
+    {
+      "word": "serious",
+      "definition": "严肃的",
+      "is_new": true
+    },
+    {
+      "word": "ridiculous",
+      "definition": "荒谬的",
+      "is_new": true
+    },
+    {
+      "word": "vain",
+      "definition": "虚荣的",
+      "is_new": false
+    },
+    {
+      "word": "admire",
+      "definition": "钦佩, 欣赏",
+      "is_new": true
+    },
+    {
+      "word": "pride",
+      "definition": "骄傲",
+      "is_new": false
+    },
+    {
+      "word": "shame",
+      "definition": "羞愧",
+      "is_new": true
+    },
+    {
+      "word": "possess",
+      "definition": "拥有",
+      "is_new": true
+    },
+    {
+      "word": "calculate",
+      "definition": "计算",
+      "is_new": true
+    }
+  ]
+}

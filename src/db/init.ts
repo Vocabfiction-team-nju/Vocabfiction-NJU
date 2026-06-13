@@ -5,7 +5,7 @@ import { BUILTIN_WORD_LIST_ID } from '@/src/models/word-list';
 const ECDICT_DB = 'ecdict_mobile.db';
 const WORD_SENSE_DB = 'word_sense_mobile.db';
 const APP_DB = 'vocabfiction.db';
-const BUILTIN_WORD_LIST_NAME = 'NJU词汇表AB类汇总';
+const BUILTIN_WORD_LIST_NAME = 'CET-4 Core Vocabulary';
 
 let ecdictDb: SQLiteDatabase | null = null;
 let wordSenseDb: SQLiteDatabase | null = null;
@@ -210,10 +210,10 @@ export async function initDatabase(): Promise<{
     [BUILTIN_WORD_LIST_ID, BUILTIN_WORD_LIST_NAME],
   );
 
-  // Load built-in word list text from bundled asset (16 KB text file).
+  // Load built-in word list text from bundled asset.
   try {
     const { Asset } = require('expo-asset');
-    const mod = require('../../assets/NJU词汇表AB类汇总.txt');
+    const mod = require('../../assets/cet4-core-vocabulary.txt');
     const asset = Asset.fromModule(mod);
     await asset.downloadAsync();
     if (asset.localUri) {
@@ -230,11 +230,17 @@ export async function initDatabase(): Promise<{
   await appDb.execAsync(`
     INSERT OR IGNORE INTO settings (key, value) VALUES ('font_size', 'medium');
     INSERT OR IGNORE INTO settings (key, value) VALUES ('reading_mode', 'chat');
+    DELETE FROM works WHERE id IN ('makeine', 'gamers') AND source = 'builtin';
     INSERT OR IGNORE INTO works (id, title, title_en, total_eps, source, word_list_id)
-    VALUES ('makeine', '败犬女主太多了！', 'Too Many Losing Heroines!', 3, 'builtin', '${BUILTIN_WORD_LIST_ID}');
+    VALUES ('little_prince', '小王子', 'The Little Prince', 10, 'builtin', '${BUILTIN_WORD_LIST_ID}');
     INSERT OR IGNORE INTO works (id, title, title_en, total_eps, source, word_list_id)
-    VALUES ('gamers', 'GAMERS电玩咖！', 'Gamers!', 7, 'builtin', '${BUILTIN_WORD_LIST_ID}');
-    UPDATE works SET total_eps = 7 WHERE id = 'gamers';
+    VALUES ('merchant_venice', '威尼斯商人', 'The Merchant of Venice', 10, 'builtin', '${BUILTIN_WORD_LIST_ID}');
+    UPDATE works
+    SET title = '小王子', title_en = 'The Little Prince', total_eps = 10, word_list_id = '${BUILTIN_WORD_LIST_ID}'
+    WHERE id = 'little_prince' AND source = 'builtin';
+    UPDATE works
+    SET title = '威尼斯商人', title_en = 'The Merchant of Venice', total_eps = 10, word_list_id = '${BUILTIN_WORD_LIST_ID}'
+    WHERE id = 'merchant_venice' AND source = 'builtin';
     UPDATE works SET word_list_id = '${BUILTIN_WORD_LIST_ID}'
     WHERE source = 'builtin' AND (word_list_id IS NULL OR word_list_id = '');
   `);

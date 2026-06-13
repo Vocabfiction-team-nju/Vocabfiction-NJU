@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "ep": 4,
+    "title": "The Lead Casket",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "Bassanio decided to select the lead casket because its modest warning sounded truer than gold or silver praise. Portia could barely stand still.",
+      "marks": [
+        {
+          "word": "select",
+          "index": 3,
+          "definition": "选择",
+          "is_new": true
+        },
+        {
+          "word": "modest",
+          "index": 9,
+          "definition": "朴素的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "You that choose not by the view, let me find fair fortune here.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He opened it and found Portia's portrait, painted so vividly that even the eyes seemed ready to speak.",
+      "marks": [
+        {
+          "word": "portrait",
+          "index": 6,
+          "definition": "画像",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "This portrait is less than the living original, yet it is enough to make me blessed.",
+      "marks": [
+        {
+          "word": "portrait",
+          "index": 1,
+          "definition": "画像",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then I am yours, with this house, these servants, and myself. I accept your love and give you this ring.",
+      "marks": [
+        {
+          "word": "accept",
+          "index": 12,
+          "definition": "接受",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The ring became a ceremony in miniature. She asked him to keep it as the sign of honor between them.",
+      "marks": [
+        {
+          "word": "ceremony",
+          "index": 4,
+          "definition": "仪式",
+          "is_new": true
+        },
+        {
+          "word": "honor",
+          "index": 17,
+          "definition": "荣誉",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "If you part with it, lose it, or give it away, let that mean your love has failed.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "When this ring leaves my finger, let life leave my body.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Gratiano then confessed that he loved Nerissa, and Nerissa admitted that his suit had succeeded if Bassanio succeeded. Joy doubled itself.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "Our wedding can follow yours. I kept time with my lord in love as well as in travel.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The celebration ended when Lorenzo, Jessica, and Salerio arrived with an urgent letter from Antonio. Bassanio read it and lost color.",
+      "marks": [
+        {
+          "word": "urgent",
+          "index": 11,
+          "definition": "紧急的",
+          "is_new": true
+        },
+        {
+          "word": "letter",
+          "index": 12,
+          "definition": "信件",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "What loss can turn you so pale on the day of your happiness?",
+      "marks": [
+        {
+          "word": "loss",
+          "index": 1,
+          "definition": "损失",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "The dearest friend I have is ruined for my sake. His ships are lost, and Shylock demands the bond.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Antonio's letter did not blame him. It asked only to see Bassanio before death if friendship allowed.",
+      "marks": [
+        {
+          "word": "letter",
+          "index": 1,
+          "definition": "信件",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Every word opens a wound. I borrowed in my name, but Antonio gave his flesh as security.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Pay the debt many times over. Go to Venice with speed. A friend who bears such risk must not wait.",
+      "marks": [
+        {
+          "word": "risk",
+          "index": 16,
+          "definition": "风险",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "She turned private love into public duty without hesitation. The wedding would be brief, the separation immediate.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Marry me now, then go. I will not sleep in my full joy while your friend stands under a knife.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio accepted the command. His honor now required both gratitude to Portia and rescue for Antonio.",
+      "marks": [
+        {
+          "word": "honor",
+          "index": 5,
+          "definition": "荣誉",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Before night ended, Belmont changed from a house of music to a station of departure, and the urgent letter ruled them all.",
+      "marks": [
+        {
+          "word": "urgent",
+          "index": 17,
+          "definition": "紧急的",
+          "is_new": false
+        },
+        {
+          "word": "letter",
+          "index": 18,
+          "definition": "信件",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The portrait did not flatter Portia into a goddess. It caught something human in her face, and that made Bassanio trust the modest box more deeply.",
+      "marks": [
+        {
+          "word": "portrait",
+          "index": 1,
+          "definition": "画像",
+          "is_new": false
+        },
+        {
+          "word": "modest",
+          "index": 22,
+          "definition": "朴素的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "You see me happy, but also afraid. Accept both, or you do not accept me truly.",
+      "marks": [
+        {
+          "word": "accept",
+          "index": 7,
+          "definition": "接受",
+          "is_new": false
+        },
+        {
+          "word": "accept",
+          "index": 13,
+          "definition": "接受",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "I accept the lady, the fear, the fortune, and the honor of serving them all.",
+      "marks": [
+        {
+          "word": "accept",
+          "index": 1,
+          "definition": "接受",
+          "is_new": false
+        },
+        {
+          "word": "honor",
+          "index": 10,
+          "definition": "荣誉",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "For a moment Belmont seemed secure. The ceremony of rings and vows made time slow enough for joy to gather.",
+      "marks": [
+        {
+          "word": "ceremony",
+          "index": 7,
+          "definition": "仪式",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Then Antonio's letter broke the music. Its urgent kindness hurt more than accusation because it refused to make Bassanio smaller.",
+      "marks": [
+        {
+          "word": "letter",
+          "index": 2,
+          "definition": "信件",
+          "is_new": false
+        },
+        {
+          "word": "urgent",
+          "index": 7,
+          "definition": "紧急的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "A love that cannot answer a friend's loss would be a poor beginning. Go quickly, and take my wealth with my trust.",
+      "marks": [
+        {
+          "word": "loss",
+          "index": 7,
+          "definition": "损失",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Portia moved quickly because love had made Bassanio's danger her own. She did not pause to measure whether Antonio belonged to her household.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Any friend who signs flesh for you enters my care as well.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio left Belmont married, frightened, and newly aware that honor can demand departure at the very moment happiness begins.",
+      "marks": [
+        {
+          "word": "honor",
+          "index": 9,
+          "definition": "荣誉",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Portia did not treat wealth as decoration. Once Antonio needed help, her fortune became movement: horses, money, letters, and immediate command.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "I came to win a wife and found a partner stronger than my fear.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "That knowledge made leaving both easier and more painful.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "select",
+      "definition": "选择",
+      "is_new": true
+    },
+    {
+      "word": "modest",
+      "definition": "朴素的",
+      "is_new": true
+    },
+    {
+      "word": "portrait",
+      "definition": "画像",
+      "is_new": true
+    },
+    {
+      "word": "accept",
+      "definition": "接受",
+      "is_new": true
+    },
+    {
+      "word": "ceremony",
+      "definition": "仪式",
+      "is_new": true
+    },
+    {
+      "word": "honor",
+      "definition": "荣誉",
+      "is_new": true
+    },
+    {
+      "word": "urgent",
+      "definition": "紧急的",
+      "is_new": true
+    },
+    {
+      "word": "letter",
+      "definition": "信件",
+      "is_new": true
+    },
+    {
+      "word": "loss",
+      "definition": "损失",
+      "is_new": false
+    },
+    {
+      "word": "risk",
+      "definition": "风险",
+      "is_new": false
+    }
+  ]
+}

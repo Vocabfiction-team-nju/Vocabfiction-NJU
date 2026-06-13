@@ -21,7 +21,7 @@
 
 ```sql
 CREATE TABLE word_lists (
-  id            TEXT PRIMARY KEY,        -- 唯一标识，如 "builtin-nju-ab"
+  id            TEXT PRIMARY KEY,        -- 唯一标识，如 "builtin-cet4-core"
   name          TEXT NOT NULL,           -- 展示名称
   text          TEXT NOT NULL DEFAULT '', -- 词表原文；内置词表可为空占位
   source        TEXT NOT NULL DEFAULT 'user', -- 'builtin' | 'user'
@@ -30,7 +30,7 @@ CREATE TABLE word_lists (
 );
 ```
 
-**默认记录：** 启动时写入 `builtin-nju-ab`，作为内置小说默认绑定词表。用户上传词表会生成独立 `wordListId`，并同步保存为当前词表。
+**默认记录：** 启动时写入 `builtin-cet4-core`，作为内置小说默认绑定词表。用户上传词表会生成独立 `wordListId`，并同步保存为当前词表。
 
 ## works
 
@@ -38,9 +38,9 @@ CREATE TABLE word_lists (
 
 ```sql
 CREATE TABLE works (
-  id            TEXT PRIMARY KEY,        -- 唯一标识，如 "makeine"
-  title         TEXT NOT NULL,           -- 作品名，如 "败犬女主太多了！"
-  title_en      TEXT,                    -- 英文名（可选），如 "Too Many Losing Heroines!"
+  id            TEXT PRIMARY KEY,        -- 唯一标识，如 "little_prince"
+  title         TEXT NOT NULL,           -- 作品名，如 "小王子"
+  title_en      TEXT,                    -- 英文名（可选），如 "The Little Prince"
   author        TEXT,                    -- 作者（可选）
   total_eps     INTEGER NOT NULL,        -- 总集数
   source        TEXT NOT NULL DEFAULT 'builtin',  -- 'builtin' | 'user'
@@ -52,7 +52,7 @@ CREATE TABLE works (
 ```
 
 **作品与词表绑定：**
-- 内置小说默认绑定 `builtin-nju-ab`，可在作品管理页更换。
+- 内置小说默认绑定 `builtin-cet4-core`，可在作品管理页更换。
 - 用户上传小说保存时绑定当前词表，并先以 `total_eps = 0` 登记到书架。
 - 生成成功后写入 episode JSON 并更新 `total_eps`；生成未完成时点击书架卡片进入作品管理页继续生成。
 
@@ -152,11 +152,13 @@ INSERT OR IGNORE INTO settings (key, value) VALUES ('reading_mode', 'chat');
 
 -- 内置词表
 INSERT OR IGNORE INTO word_lists (id, name, text, source)
-VALUES ('builtin-nju-ab', 'NJU词汇表AB类汇总', '', 'builtin');
+VALUES ('builtin-cet4-core', 'CET-4 Core Vocabulary', '', 'builtin');
 
 -- 内置作品
 INSERT OR IGNORE INTO works (id, title, title_en, total_eps, source, word_list_id)
-VALUES ('makeine', '败犬女主太多了！', 'Too Many Losing Heroines!', 3, 'builtin', 'builtin-nju-ab');
+VALUES ('little_prince', '小王子', 'The Little Prince', 10, 'builtin', 'builtin-cet4-core');
+INSERT OR IGNORE INTO works (id, title, title_en, total_eps, source, word_list_id)
+VALUES ('merchant_venice', '威尼斯商人', 'The Merchant of Venice', 10, 'builtin', 'builtin-cet4-core');
 ```
 
 ---
@@ -242,24 +244,20 @@ App 首次启动
 **目录约定：** 每部作品的集数 JSON 按 `novels/<作品名>/<work_id>/` 层级存放。
 
 ```
-novels/败犬女主太多了！/
-├── 败犬女主太多了！ 第一卷 utf-8.txt       ← 源材料（如有）
+novels/the_little_prince/
 ├── characters/
-│   ├── characters.json                   ← 角色 → 头像映射
-│   ├── Nukumizu.png
-│   ├── Sousuke.png
-│   └── Yanami.png
-└── makeine/                              ← work_id = "makeine"
-    ├── ep01_a_quiet_afternoon.json
-    ├── ep02_the_argument.json
-    └── ep03_the_glass.json
+│   └── characters.json                   ← 角色 → 头像映射
+└── little_prince/                        ← work_id = "little_prince"
+    ├── ep01.json
+    ├── ...
+    └── ep10.json
 ```
 
 **内置作品：** JSON 文件随 App 打包为静态 assets。通过 `require()` 或 `expo-asset` 加载。
 
 **用户上传作品：** 目录为 `documentDirectory/novels/<work_id>/`。`plain.txt` 保存 UTF-8 原文，`meta.json` 记录标题、绑定词表和保存时间，`generation-checkpoint.json` 保存生成阶段、中间数据和已完成 episode。生成成功后写入 `episodes/epNN.json`、`chapters.json`、`arc-plan.json`、`vocabulary.json`。
 
-**Episode 发现：** 加载某集时，按文件名模式 `ep<NN>_*.json` 匹配。`works.total_eps` 提供集数上限。
+**Episode 发现：** 加载某集时，优先读取 `ep<NN>.json`，否则按 `ep<NN>*.json` 前缀匹配。`works.total_eps` 提供集数上限。
 
 ---
 

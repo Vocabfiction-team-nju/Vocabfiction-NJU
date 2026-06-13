@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "ep": 8,
+    "title": "The Well at Daybreak",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "By the eighth day my water supply was gone. The engine still refused to live, and thirst made every thought sharp.",
+      "marks": [
+        {
+          "word": "supply",
+          "index": 6,
+          "definition": "供给",
+          "is_new": true
+        },
+        {
+          "word": "thirst",
+          "index": 16,
+          "definition": "口渴",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Your stories are beautiful, but they do not give us water. We must search or die.",
+      "marks": [
+        {
+          "word": "search",
+          "index": 13,
+          "definition": "寻找",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Water can also be good for the heart. My fox would understand.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "We walked under the stars. My body wanted sleep, but his quiet faith gave comfort where reason gave none.",
+      "marks": [
+        {
+          "word": "comfort",
+          "index": 14,
+          "definition": "安慰",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "The desert is beautiful because it hides a well somewhere. The essential thing may be invisible.",
+      "marks": [
+        {
+          "word": "essential",
+          "index": 11,
+          "definition": "本质的, 必要的",
+          "is_new": false
+        },
+        {
+          "word": "invisible",
+          "index": 15,
+          "definition": "看不见的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I carried him when he grew tired. He was light, almost like a flame, and the effort made my arms ache.",
+      "marks": [
+        {
+          "word": "effort",
+          "index": 16,
+          "definition": "努力",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Near dawn we found a well. It stood in the sand like a village well, with rope, pulley, and bucket, though no village was near.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "This is impossible. Wells in the desert do not appear ready for travelers.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Everything is ready when a friend is thirsty.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "I raised the bucket. The rope sang against the pulley, and the water shone in the morning light like a reward.",
+      "marks": [
+        {
+          "word": "reward",
+          "index": 20,
+          "definition": "回报",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I am thirsty for this water. Let me drink.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He drank with closed eyes. The water was not only water. It held the walk, the stars, the effort, and our shared silence.",
+      "marks": [
+        {
+          "word": "effort",
+          "index": 18,
+          "definition": "努力",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "It is sweet. It tastes like a festival.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Because it was born from the search. What makes things precious is invisible work.",
+      "marks": [
+        {
+          "word": "search",
+          "index": 6,
+          "definition": "寻找",
+          "is_new": false
+        },
+        {
+          "word": "precious",
+          "index": 10,
+          "definition": "珍贵的",
+          "is_new": true
+        },
+        {
+          "word": "invisible",
+          "index": 12,
+          "definition": "看不见的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I remembered the fox, the rose, and even my first drawing. A memory can become a well if someone returns to it with love.",
+      "marks": [
+        {
+          "word": "memory",
+          "index": 12,
+          "definition": "记忆",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "You must keep your promise about the muzzle. Your sheep must not eat my rose.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The promise struck me with fear. I had drawn the sheep and the box, but not the strap for the muzzle.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I will draw it today. You speak as if you are going far away.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He smiled with such comfort and sadness that I understood the reward of finding water had not ended our danger.",
+      "marks": [
+        {
+          "word": "comfort",
+          "index": 4,
+          "definition": "安慰",
+          "is_new": false
+        },
+        {
+          "word": "reward",
+          "index": 11,
+          "definition": "回报",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Something else waited in the desert, and his memory of home had become stronger than thirst.",
+      "marks": [
+        {
+          "word": "memory",
+          "index": 8,
+          "definition": "记忆",
+          "is_new": false
+        },
+        {
+          "word": "thirst",
+          "index": 15,
+          "definition": "口渴",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The well sounded before it appeared. Its pulley creaked like music from a village festival, and that music made the water feel prepared for us.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Men on trains rush after gardens and shops, yet they do not know what they search for.",
+      "marks": [
+        {
+          "word": "search",
+          "index": 15,
+          "definition": "寻找",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Only children press their faces to windows. They still believe the reward may be hidden nearby.",
+      "marks": [
+        {
+          "word": "reward",
+          "index": 11,
+          "definition": "回报",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "His answer comforted me because it did not deny thirst. It placed thirst inside a larger hunger for meaning, friendship, and memory.",
+      "marks": [
+        {
+          "word": "thirst",
+          "index": 9,
+          "definition": "口渴",
+          "is_new": false
+        },
+        {
+          "word": "thirst",
+          "index": 12,
+          "definition": "口渴",
+          "is_new": false
+        },
+        {
+          "word": "memory",
+          "index": 21,
+          "definition": "记忆",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "A single flower can make a whole desert precious if you believe it is somewhere under the stars.",
+      "marks": [
+        {
+          "word": "precious",
+          "index": 8,
+          "definition": "珍贵的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I drank again and understood that the effort of drawing water had changed the water. What we carry together tastes different.",
+      "marks": [
+        {
+          "word": "effort",
+          "index": 7,
+          "definition": "努力",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Then he reminded me of the muzzle, and the morning joy tilted toward fear. Even precious promises need practical details.",
+      "marks": [
+        {
+          "word": "precious",
+          "index": 15,
+          "definition": "珍贵的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I had crossed the desert as a pilot seeking water; I returned from the well as a man who understood why children love hidden things.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "The supply of water matters, but the memory of finding it together matters too.",
+      "marks": [
+        {
+          "word": "supply",
+          "index": 1,
+          "definition": "供给",
+          "is_new": false
+        },
+        {
+          "word": "memory",
+          "index": 7,
+          "definition": "记忆",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "His face grew serious again when he spoke of the rose, and the well seemed to echo the promise I had not completed.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "When I lifted the bucket, I felt the rope pull through my hands like proof that invisible things still ask for physical effort.",
+      "marks": [
+        {
+          "word": "invisible",
+          "index": 16,
+          "definition": "看不见的",
+          "is_new": false
+        },
+        {
+          "word": "effort",
+          "index": 22,
+          "definition": "努力",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "The water was clear, but what I tasted most was the walk that led us there.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The prince smiled because that was exactly what he had hoped I would understand.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "supply",
+      "definition": "供给",
+      "is_new": true
+    },
+    {
+      "word": "thirst",
+      "definition": "口渴",
+      "is_new": true
+    },
+    {
+      "word": "search",
+      "definition": "寻找",
+      "is_new": true
+    },
+    {
+      "word": "comfort",
+      "definition": "安慰",
+      "is_new": true
+    },
+    {
+      "word": "essential",
+      "definition": "本质的, 必要的",
+      "is_new": false
+    },
+    {
+      "word": "invisible",
+      "definition": "看不见的",
+      "is_new": false
+    },
+    {
+      "word": "effort",
+      "definition": "努力",
+      "is_new": true
+    },
+    {
+      "word": "reward",
+      "definition": "回报",
+      "is_new": true
+    },
+    {
+      "word": "precious",
+      "definition": "珍贵的",
+      "is_new": true
+    },
+    {
+      "word": "memory",
+      "definition": "记忆",
+      "is_new": true
+    }
+  ]
+}

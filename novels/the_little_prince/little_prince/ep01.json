@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "ep": 1,
+    "title": "A Voice in the Desert",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "When I was six, I made my first drawing after reading about a boa that swallowed its prey whole. I did not yet know that every adult would call my picture a hat.",
+      "marks": [
+        {
+          "word": "adult",
+          "index": 26,
+          "definition": "成年人",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "It was not a hat. It was a snake with an elephant inside. I could imagine the elephant clearly.",
+      "marks": [
+        {
+          "word": "imagine",
+          "index": 15,
+          "definition": "想象",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The adult world answered with advice about numbers, geography, grammar, and careers. So I put away my colored pencils and became an ordinary pilot.",
+      "marks": [
+        {
+          "word": "adult",
+          "index": 1,
+          "definition": "成年人",
+          "is_new": false
+        },
+        {
+          "word": "ordinary",
+          "index": 22,
+          "definition": "普通的",
+          "is_new": true
+        },
+        {
+          "word": "pilot",
+          "index": 23,
+          "definition": "飞行员",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Years later my plane broke above the Sahara desert. The engine coughed once, shook twice, and fell silent over sand that seemed endless.",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 8,
+          "definition": "沙漠",
+          "is_new": true
+        },
+        {
+          "word": "engine",
+          "index": 10,
+          "definition": "发动机",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I had water for eight days, a toolbox, and no mechanic within a thousand miles. I had to repair the engine myself.",
+      "marks": [
+        {
+          "word": "repair",
+          "index": 18,
+          "definition": "修理",
+          "is_new": true
+        },
+        {
+          "word": "engine",
+          "index": 20,
+          "definition": "发动机",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "At dawn, after a night of cold stars, a sudden small voice woke me as if it had fallen from the sky.",
+      "marks": [
+        {
+          "word": "sudden",
+          "index": 9,
+          "definition": "突然的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Please, will you draw a sheep for me?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "What are you doing here, in this desert, alone at sunrise?",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 7,
+          "definition": "沙漠",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If you please, a sheep. That is my request.",
+      "marks": [
+        {
+          "word": "request",
+          "index": 8,
+          "definition": "请求",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "His request was so serious that I forgot thirst, fear, and the broken engine. I drew the old snake picture first.",
+      "marks": [
+        {
+          "word": "request",
+          "index": 1,
+          "definition": "请求",
+          "is_new": false
+        },
+        {
+          "word": "engine",
+          "index": 13,
+          "definition": "发动机",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "No. I do not want an elephant inside a snake. A sheep is smaller.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "I tried one sheep, then another, but the curious child rejected each with polite firmness. One was sick, one was a ram, one was too old.",
+      "marks": [
+        {
+          "word": "curious",
+          "index": 8,
+          "definition": "好奇的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Here is a box. The sheep you want is inside it.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "That is exactly right. Do you think this sheep needs much grass?",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Only a child could accept a box with such trust. Only a child could make a tired pilot in the desert feel less ordinary.",
+      "marks": [
+        {
+          "word": "pilot",
+          "index": 17,
+          "definition": "飞行员",
+          "is_new": false
+        },
+        {
+          "word": "desert",
+          "index": 20,
+          "definition": "沙漠",
+          "is_new": false
+        },
+        {
+          "word": "ordinary",
+          "index": 23,
+          "definition": "普通的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "While I prepared tools for the repair, he studied the drawing and asked quiet questions, but he answered almost none of mine.",
+      "marks": [
+        {
+          "word": "repair",
+          "index": 6,
+          "definition": "修理",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Where did you come from? Did another plane bring you here?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "The important thing is that the sheep will be small. Where I live, everything is small.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "That was how I met the little prince: not through proper introduction, but through a drawing, a broken engine, and a request impossible to refuse.",
+      "marks": [
+        {
+          "word": "engine",
+          "index": 18,
+          "definition": "发动机",
+          "is_new": false
+        },
+        {
+          "word": "request",
+          "index": 21,
+          "definition": "请求",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "By evening the desert no longer felt empty. A strange friendship had started, and my old habit of seeing beyond the surface returned.",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 3,
+          "definition": "沙漠",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Before that morning, I had trusted practical things: fuel, maps, bolts, and the stubborn arithmetic of survival. The boy made those adult tools feel incomplete.",
+      "marks": [
+        {
+          "word": "adult",
+          "index": 21,
+          "definition": "成年人",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "The sheep in the box is not asleep forever, is it? It will wake when it is hungry.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Of course. A sheep in a box follows the rules of imagination better than any sheep I draw badly.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He accepted that explanation with grave satisfaction. Then he walked around the plane, curious about each wing, wheel, and dented panel.",
+      "marks": [
+        {
+          "word": "curious",
+          "index": 13,
+          "definition": "好奇的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "This thing cannot have brought you from very far. It is too heavy to belong among stars.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "I laughed, then stopped, because he had guessed more than I had told him. The desert had given me a child who spoke as if distance were familiar.",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 15,
+          "definition": "沙漠",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I had spent years hiding the child who drew from imagination. The little prince found that hidden part faster than any adult ever had.",
+      "marks": [
+        {
+          "word": "adult",
+          "index": 21,
+          "definition": "成年人",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "When you repair the engine, do you also repair the pilot?",
+      "marks": [
+        {
+          "word": "repair",
+          "index": 2,
+          "definition": "修理",
+          "is_new": false
+        },
+        {
+          "word": "engine",
+          "index": 4,
+          "definition": "发动机",
+          "is_new": false
+        },
+        {
+          "word": "repair",
+          "index": 8,
+          "definition": "修理",
+          "is_new": false
+        },
+        {
+          "word": "pilot",
+          "index": 10,
+          "definition": "飞行员",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I noticed, too, that he never treated the drawing as a trick. To him the box was practical because it protected the sheep and protected my pride.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "That small mercy was the first repair he made in me.",
+      "marks": [
+        {
+          "word": "repair",
+          "index": 6,
+          "definition": "修理",
+          "is_new": false
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "adult",
+      "definition": "成年人",
+      "is_new": true
+    },
+    {
+      "word": "imagine",
+      "definition": "想象",
+      "is_new": true
+    },
+    {
+      "word": "ordinary",
+      "definition": "普通的",
+      "is_new": true
+    },
+    {
+      "word": "pilot",
+      "definition": "飞行员",
+      "is_new": true
+    },
+    {
+      "word": "desert",
+      "definition": "沙漠",
+      "is_new": true
+    },
+    {
+      "word": "engine",
+      "definition": "发动机",
+      "is_new": true
+    },
+    {
+      "word": "repair",
+      "definition": "修理",
+      "is_new": true
+    },
+    {
+      "word": "sudden",
+      "definition": "突然的",
+      "is_new": true
+    },
+    {
+      "word": "request",
+      "definition": "请求",
+      "is_new": true
+    },
+    {
+      "word": "curious",
+      "definition": "好奇的",
+      "is_new": true
+    }
+  ]
+}

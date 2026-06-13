@@ -10,27 +10,18 @@ export interface CharacterData {
  * Static registry of built-in character data.
  */
 const builtinCharacters: Record<string, () => CharacterData> = {
-  makeine: () =>
-    require('@/novels/败犬女主太多了！/characters/characters.json'),
-  gamers: () =>
-    require('@/novels/GAMERS电玩咖！/characters/characters.json'),
+  little_prince: () =>
+    require('@/novels/the_little_prince/characters/characters.json'),
+  merchant_venice: () =>
+    require('@/novels/merchant_of_venice/characters/characters.json'),
 };
 
 /**
  * Static registry of built-in avatar images.
  */
 const builtinAvatars: Record<string, Record<string, () => ImageSourcePropType>> = {
-  makeine: {
-    'Yanami.png': () => require('@/novels/败犬女主太多了！/characters/Yanami.png'),
-    'Nukumizu.png': () => require('@/novels/败犬女主太多了！/characters/Nukumizu.png'),
-    'Sousuke.png': () => require('@/novels/败犬女主太多了！/characters/Sousuke.png'),
-  },
-  gamers: {
-    'Keita_Amano.png': () => require('@/novels/GAMERS电玩咖！/characters/Keita_Amano.png'),
-    'Karen_Tendo.png': () => require('@/novels/GAMERS电玩咖！/characters/Karen_Tendo.png'),
-    'Tasuku_Uehara.png': () => require('@/novels/GAMERS电玩咖！/characters/Tasuku_Uehara.png'),
-    'Aguri_Sakurano.png': () => require('@/novels/GAMERS电玩咖！/characters/Aguri_Sakurano.png'),
-  },
+  little_prince: {},
+  merchant_venice: {},
 };
 
 /**

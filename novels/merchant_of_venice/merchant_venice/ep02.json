@@ -1,0 +1,422 @@
+{
+  "meta": {
+    "ep": 2,
+    "title": "Caskets and Flight",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "At Belmont the first suitor of rank was the Prince of Morocco. He asked Portia not to judge his appearance before his courage.",
+      "marks": [
+        {
+          "word": "appearance",
+          "index": 19,
+          "definition": "外表",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "The contract allows me no private choice. If you choose rightly, I am yours. If not, you must never marry.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 1,
+          "definition": "合同",
+          "is_new": false
+        },
+        {
+          "word": "choice",
+          "index": 6,
+          "definition": "选择",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Morocco",
+      "text": "I accept. Gold suits what many desire, and Portia is a jewel the world desires.",
+      "marks": [
+        {
+          "word": "jewel",
+          "index": 11,
+          "definition": "宝石",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He opened the golden casket and found a skull with a warning. Glittering surface had promised value and delivered emptiness.",
+      "marks": [
+        {
+          "word": "surface",
+          "index": 13,
+          "definition": "表面",
+          "is_new": true
+        },
+        {
+          "word": "value",
+          "index": 16,
+          "definition": "价值",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Morocco",
+      "text": "Cold lesson. I wanted what many men desire and did not deserve what one true heart must earn.",
+      "marks": [
+        {
+          "word": "deserve",
+          "index": 11,
+          "definition": "值得",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Later the Prince of Arragon chose silver because it promised what he deserved. He found a fool in the box and left ashamed.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "One chose by appearance, one by pride. If worth hides anywhere, perhaps it waits in lead.",
+      "marks": [
+        {
+          "word": "appearance",
+          "index": 3,
+          "definition": "外表",
+          "is_new": false
+        },
+        {
+          "word": "worth",
+          "index": 8,
+          "definition": "价值",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "While Belmont tested suitors, Venice hid another escape. Shylock kept his daughter Jessica in a house of locked doors and bitter rules.",
+      "marks": [
+        {
+          "word": "escape",
+          "index": 7,
+          "definition": "逃离",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Jessica",
+      "text": "Lorenzo, I am ashamed to be my father's child only in manners. Tonight I will leave in disguise.",
+      "marks": [
+        {
+          "word": "disguise",
+          "index": 17,
+          "definition": "伪装",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lorenzo",
+      "text": "Wear a page's clothes, bring what you can, and trust the night.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Jessica took jewels and money from Shylock, dressed as a boy, and climbed down to Lorenzo while music covered the risk.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Jessica",
+      "text": "Love is blind, and I am glad. I would blush if the street could see this disguise.",
+      "marks": [
+        {
+          "word": "disguise",
+          "index": 16,
+          "definition": "伪装",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The escape wounded Shylock more deeply because it mixed family, religion, money, and public shame.",
+      "marks": [
+        {
+          "word": "escape",
+          "index": 1,
+          "definition": "逃离",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio sailed toward Belmont with Gratiano beside him, unaware that the bond in Venice was tightening behind every mile.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Portia is not a prize to purchase. I must choose by worth, not by surface.",
+      "marks": [
+        {
+          "word": "worth",
+          "index": 11,
+          "definition": "价值",
+          "is_new": false
+        },
+        {
+          "word": "surface",
+          "index": 14,
+          "definition": "表面",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "Then let lead look better than gold, or we are all undone.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "In this story, bright things often misled. Gold failed, silver mocked, jewels vanished, and disguise carried both love and betrayal.",
+      "marks": [
+        {
+          "word": "disguise",
+          "index": 14,
+          "definition": "伪装",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Only the lead casket remained closed, plain as duty and heavy as truth.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "If Bassanio comes, let music play while he chooses. My heart must obey a contract, even if it trembles.",
+      "marks": [
+        {
+          "word": "contract",
+          "index": 14,
+          "definition": "合同",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Her servants prepared the hall, and every quiet object seemed to ask what love was worth when appearance had no answer.",
+      "marks": [
+        {
+          "word": "worth",
+          "index": 15,
+          "definition": "价值",
+          "is_new": false
+        },
+        {
+          "word": "appearance",
+          "index": 17,
+          "definition": "外表",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Morocco left with ceremony, but disappointment followed him like a servant. Gold had taught him that public desire is a poor guide to private worth.",
+      "marks": [
+        {
+          "word": "worth",
+          "index": 24,
+          "definition": "价值",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "A bright surface can invite the eye and still hide a warning. My father understood suitors too well.",
+      "marks": [
+        {
+          "word": "surface",
+          "index": 2,
+          "definition": "表面",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Arragon was colder. He spoke of deserve as if love were a court salary, then found the portrait of a fool waiting for him.",
+      "marks": [
+        {
+          "word": "deserve",
+          "index": 6,
+          "definition": "值得",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "One man trusted appearance, the other trusted self-love. Lead begins to look almost friendly.",
+      "marks": [
+        {
+          "word": "appearance",
+          "index": 3,
+          "definition": "外表",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Jessica's escape moved through another kind of appearance. A daughter became a page, and a locked house became a stage for flight.",
+      "marks": [
+        {
+          "word": "escape",
+          "index": 1,
+          "definition": "逃离",
+          "is_new": false
+        },
+        {
+          "word": "appearance",
+          "index": 7,
+          "definition": "外表",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Jessica",
+      "text": "I carry jewels, but what I want most is a different name spoken kindly in the street.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia watched each failed choice with relief and fear together. Relief because she remained free; fear because the right man might choose just as badly.",
+      "marks": [
+        {
+          "word": "choice",
+          "index": 4,
+          "definition": "选择",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "The caskets teach, but they do not comfort. A lesson can still leave a woman waiting.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia could not stop the trials, but she could read the men who entered them. Their choices revealed what their speeches tried to hide.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "The caskets speak less than the suitors do before opening them.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "By night, Belmont and Venice were both full of disguises, some chosen for love and some forced by law.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "appearance",
+      "definition": "外表",
+      "is_new": true
+    },
+    {
+      "word": "contract",
+      "definition": "合同",
+      "is_new": false
+    },
+    {
+      "word": "choice",
+      "definition": "选择",
+      "is_new": false
+    },
+    {
+      "word": "jewel",
+      "definition": "宝石",
+      "is_new": true
+    },
+    {
+      "word": "surface",
+      "definition": "表面",
+      "is_new": true
+    },
+    {
+      "word": "value",
+      "definition": "价值",
+      "is_new": true
+    },
+    {
+      "word": "deserve",
+      "definition": "值得",
+      "is_new": true
+    },
+    {
+      "word": "worth",
+      "definition": "价值",
+      "is_new": true
+    },
+    {
+      "word": "escape",
+      "definition": "逃离",
+      "is_new": true
+    },
+    {
+      "word": "disguise",
+      "definition": "伪装",
+      "is_new": true
+    }
+  ]
+}

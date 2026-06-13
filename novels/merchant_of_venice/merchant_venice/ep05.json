@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "ep": 5,
+    "title": "Portia Studies the Law",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "After the wedding, Bassanio and Gratiano left for Venice with money enough to pay the debt many times. The urgent danger remained, but Portia watched them go calmly.",
+      "marks": [
+        {
+          "word": "urgent",
+          "index": 19,
+          "definition": "紧急的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Nerissa, we will not wait here like painted figures while men decide the life of Antonio.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "What can we do? Venice has law, judges, and a contract already sealed.",
+      "marks": [
+        {
+          "word": "law",
+          "index": 6,
+          "definition": "法律",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then we must bring better law, sharper wisdom, and perhaps mercy hidden in a disguise.",
+      "marks": [
+        {
+          "word": "law",
+          "index": 5,
+          "definition": "法律",
+          "is_new": false
+        },
+        {
+          "word": "wisdom",
+          "index": 7,
+          "definition": "智慧",
+          "is_new": true
+        },
+        {
+          "word": "mercy",
+          "index": 10,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "disguise",
+          "index": 14,
+          "definition": "伪装",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "She sent a servant to Padua to consult her cousin Bellario, a learned doctor of law. Books and clothing would return by speed.",
+      "marks": [
+        {
+          "word": "consult",
+          "index": 7,
+          "definition": "咨询",
+          "is_new": true
+        },
+        {
+          "word": "law",
+          "index": 15,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "We will dress as young men. I will be a doctor; you shall be my clerk.",
+      "marks": [
+        {
+          "word": "clerk",
+          "index": 15,
+          "definition": "书记员",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "And if our husbands see us?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "They will see what they expect to see. That is the oldest disguise in the world.",
+      "marks": [
+        {
+          "word": "disguise",
+          "index": 12,
+          "definition": "伪装",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Portia trusted not only clothing, but attention. She had listened to the bond, the risk, and the gaps inside strict words.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Jessica and Lorenzo remained at Belmont, surprised by Portia's sudden journey and by the authority she carried without raising her voice.",
+      "marks": [
+        {
+          "word": "journey",
+          "index": 10,
+          "definition": "旅程",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Jessica",
+      "text": "She moves as if kindness can become a strategy.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lorenzo",
+      "text": "Bassanio is fortunate in more than fortune.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "On the road, Nerissa teased her mistress about the ring. Men swear loudly when happy and forget quickly when pressured.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 9,
+          "definition": "戒指",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "If we save their friend, let us test whether they stay loyal to those rings.",
+      "marks": [
+        {
+          "word": "loyal",
+          "index": 11,
+          "definition": "忠诚的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "A small trial after a great one may teach them humility.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The plan was playful, but not empty. The ring marked trust, and trust needed memory under pressure.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 8,
+          "definition": "戒指",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Their carriage hurried toward Venice. In Portia's hands, love did not remain private; it became law, disguise, and action.",
+      "marks": [
+        {
+          "word": "law",
+          "index": 15,
+          "definition": "法律",
+          "is_new": false
+        },
+        {
+          "word": "disguise",
+          "index": 16,
+          "definition": "伪装",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "If Shylock asks only justice, we will give him justice so exact that mercy may enter through the edge.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 13,
+          "definition": "怜悯",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Nerissa looked at her mistress and smiled. The clerk had found her doctor, and the journey gathered speed.",
+      "marks": [
+        {
+          "word": "clerk",
+          "index": 8,
+          "definition": "书记员",
+          "is_new": false
+        },
+        {
+          "word": "journey",
+          "index": 15,
+          "definition": "旅程",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Behind them Belmont stayed peaceful. Ahead of them the court prepared for a bond that seemed impossible to break.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia did not boast of her plan. Her confidence came from reading closely, a habit many men in the play mistake for their own privilege.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "The law is a house with many doors. Shylock has entered one; we must find another before it closes.",
+      "marks": [
+        {
+          "word": "law",
+          "index": 1,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "And if the court refuses two young strangers?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then our disguise must carry age in its voice and wisdom in its papers. Bellario will lend both.",
+      "marks": [
+        {
+          "word": "disguise",
+          "index": 2,
+          "definition": "伪装",
+          "is_new": false
+        },
+        {
+          "word": "wisdom",
+          "index": 10,
+          "definition": "智慧",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The ring test began as a jest, but Portia did not treat promises lightly. A loyal heart should survive gratitude as well as danger.",
+      "marks": [
+        {
+          "word": "ring",
+          "index": 1,
+          "definition": "戒指",
+          "is_new": false
+        },
+        {
+          "word": "loyal",
+          "index": 15,
+          "definition": "忠诚的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "Men call women changeable, yet they misplace vows in a single afternoon.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Their journey turned marriage into partnership. While Bassanio raced toward mercy, Portia raced toward the means to make mercy lawful.",
+      "marks": [
+        {
+          "word": "journey",
+          "index": 1,
+          "definition": "旅程",
+          "is_new": false
+        },
+        {
+          "word": "mercy",
+          "index": 10,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "mercy",
+          "index": 18,
+          "definition": "怜悯",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bellario's books reached her before doubt could. Portia read through the night, turning scholarship into a weapon precise enough for court.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "We must not break the law. We must let the law reveal the part Shylock forgot to ask for.",
+      "marks": [
+        {
+          "word": "law",
+          "index": 5,
+          "definition": "法律",
+          "is_new": false
+        },
+        {
+          "word": "law",
+          "index": 10,
+          "definition": "法律",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Nerissa practiced the clerk's walk and voice. Their disguise depended on confidence, but also on a world too ready to trust male clothing.",
+      "marks": [
+        {
+          "word": "disguise",
+          "index": 8,
+          "definition": "伪装",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "If they call me learned, I shall try not to laugh.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The disguise also revealed a rule of her world: Portia could own wealth, but authority in court required a borrowed male shape.",
+      "marks": [
+        {
+          "word": "disguise",
+          "index": 1,
+          "definition": "伪装",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "If Venice will not hear Portia, it may hear Balthazar. The truth can travel under another name.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Nerissa understood. Their comedy had a serious door hidden inside it.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "urgent",
+      "definition": "紧急的",
+      "is_new": false
+    },
+    {
+      "word": "law",
+      "definition": "法律",
+      "is_new": true
+    },
+    {
+      "word": "wisdom",
+      "definition": "智慧",
+      "is_new": true
+    },
+    {
+      "word": "mercy",
+      "definition": "怜悯",
+      "is_new": false
+    },
+    {
+      "word": "disguise",
+      "definition": "伪装",
+      "is_new": false
+    },
+    {
+      "word": "consult",
+      "definition": "咨询",
+      "is_new": true
+    },
+    {
+      "word": "clerk",
+      "definition": "书记员",
+      "is_new": true
+    },
+    {
+      "word": "journey",
+      "definition": "旅程",
+      "is_new": true
+    },
+    {
+      "word": "ring",
+      "definition": "戒指",
+      "is_new": true
+    },
+    {
+      "word": "loyal",
+      "definition": "忠诚的",
+      "is_new": true
+    }
+  ]
+}

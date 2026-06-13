@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "ep": 7,
+    "title": "The Fox and the Secret",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "Near the garden, the little prince heard a soft voice under an apple tree. A fox watched him from the grass.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "Good morning.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Come and play with me. I am lonely.",
+      "marks": [
+        {
+          "word": "lonely",
+          "index": 7,
+          "definition": "孤独的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "I cannot play with you. I am not tame.",
+      "marks": [
+        {
+          "word": "tame",
+          "index": 8,
+          "definition": "驯服",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "What does tame mean?",
+      "marks": [
+        {
+          "word": "tame",
+          "index": 2,
+          "definition": "驯服",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "It means to create ties. To me, you are one boy among many. To you, I am one fox among many.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The word sounded simple, but the fox spoke as if it were a ceremony. Friendship required time, not command.",
+      "marks": [
+        {
+          "word": "ceremony",
+          "index": 13,
+          "definition": "仪式",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "Sit a little distance away. I will look at you from the corner of my eye. Each day come a little closer.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The prince obeyed. He learned patient silence. He learned that expectation can make a field of wheat shine like hair in sunlight.",
+      "marks": [
+        {
+          "word": "patient",
+          "index": 5,
+          "definition": "耐心的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "Come at the same hour. If I know the hour, my heart can prepare itself. That is the use of ceremony.",
+      "marks": [
+        {
+          "word": "ceremony",
+          "index": 20,
+          "definition": "仪式",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Their friendship grew gradual and real. When the day came for him to leave, the fox lowered his head.",
+      "marks": [
+        {
+          "word": "gradual",
+          "index": 3,
+          "definition": "逐渐的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "You will cry. I have done you no good.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "You have done me good because of the color of wheat. Now go look at the roses again.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He returned to the garden. The roses were beautiful, but they were not unique to him. He had not watered them or protected them.",
+      "marks": [
+        {
+          "word": "unique",
+          "index": 13,
+          "definition": "独特的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "You are lovely, but empty. No one could die for you. My rose is responsible to me, and I am responsible to her.",
+      "marks": [
+        {
+          "word": "responsible",
+          "index": 14,
+          "definition": "有责任的",
+          "is_new": true
+        },
+        {
+          "word": "responsible",
+          "index": 20,
+          "definition": "有责任的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The fox gave his secret before parting. The essential part of a thing cannot be seen by eyes; it becomes visible only through care.",
+      "marks": [
+        {
+          "word": "secret",
+          "index": 4,
+          "definition": "秘密",
+          "is_new": true
+        },
+        {
+          "word": "essential",
+          "index": 8,
+          "definition": "本质的, 必要的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "What is essential is invisible to a careless look. Remember the time you spent on your rose.",
+      "marks": [
+        {
+          "word": "essential",
+          "index": 2,
+          "definition": "本质的, 必要的",
+          "is_new": false
+        },
+        {
+          "word": "invisible",
+          "index": 4,
+          "definition": "看不见的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The little prince repeated the secret so memory would keep it. His rose was unique because he had loved her with daily attention.",
+      "marks": [
+        {
+          "word": "secret",
+          "index": 5,
+          "definition": "秘密",
+          "is_new": false
+        },
+        {
+          "word": "unique",
+          "index": 14,
+          "definition": "独特的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Lonely Earth had not taken his flower from him. It had taught him why she mattered more than a garden.",
+      "marks": [
+        {
+          "word": "lonely",
+          "index": 0,
+          "definition": "孤独的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The fox refused hurry. He treated friendship as a craft, something shaped by repeated presence until ordinary hours gained ceremony.",
+      "marks": [
+        {
+          "word": "ceremony",
+          "index": 19,
+          "definition": "仪式",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "Words create mistakes. Silence lets us become patient enough to hear what is changing.",
+      "marks": [
+        {
+          "word": "patient",
+          "index": 7,
+          "definition": "耐心的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "So the prince sat in the grass day after day. The distance between them grew smaller, but the importance of that distance grew clearer.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "On the day I leave, the wheat will remind you of my hair. That seems both happy and sad.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "It is the price of being tame. One accepts tears because the color of wheat becomes a reward.",
+      "marks": [
+        {
+          "word": "tame",
+          "index": 6,
+          "definition": "驯服",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "After hearing the secret, the prince did not feel clever. He felt responsible. Understanding had turned memory into an obligation.",
+      "marks": [
+        {
+          "word": "secret",
+          "index": 3,
+          "definition": "秘密",
+          "is_new": false
+        },
+        {
+          "word": "responsible",
+          "index": 12,
+          "definition": "有责任的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The roses had not changed, but his eyes had. The invisible tie to one flower now mattered more than visible beauty spread across a garden.",
+      "marks": [
+        {
+          "word": "invisible",
+          "index": 10,
+          "definition": "看不见的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The fox never touched him, yet the tame bond became stronger than touch. It lived in hours, footsteps, wheat, and remembered waiting.",
+      "marks": [
+        {
+          "word": "tame",
+          "index": 7,
+          "definition": "驯服",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "The secret is simple only after you have paid for it with time.",
+      "marks": [
+        {
+          "word": "secret",
+          "index": 1,
+          "definition": "秘密",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "That was why the prince could return to the roses without envy. Care had given him a measure that appearance could not defeat.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The fox did not make friendship easy. He made it exact: same hour, same patience, same willingness to be changed by another life.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Fox",
+      "text": "You become responsible forever, not because anyone forces you, but because your heart learns a name.",
+      "marks": [
+        {
+          "word": "responsible",
+          "index": 2,
+          "definition": "有责任的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The prince carried that sentence back to his rose like a lamp lit for the journey home.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "lonely",
+      "definition": "孤独的",
+      "is_new": false
+    },
+    {
+      "word": "tame",
+      "definition": "驯服",
+      "is_new": true
+    },
+    {
+      "word": "ceremony",
+      "definition": "仪式",
+      "is_new": true
+    },
+    {
+      "word": "patient",
+      "definition": "耐心的",
+      "is_new": true
+    },
+    {
+      "word": "gradual",
+      "definition": "逐渐的",
+      "is_new": true
+    },
+    {
+      "word": "unique",
+      "definition": "独特的",
+      "is_new": false
+    },
+    {
+      "word": "responsible",
+      "definition": "有责任的",
+      "is_new": true
+    },
+    {
+      "word": "secret",
+      "definition": "秘密",
+      "is_new": true
+    },
+    {
+      "word": "essential",
+      "definition": "本质的, 必要的",
+      "is_new": true
+    },
+    {
+      "word": "invisible",
+      "definition": "看不见的",
+      "is_new": true
+    }
+  ]
+}

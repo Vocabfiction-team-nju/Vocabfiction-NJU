@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "ep": 10,
+    "title": "Morning After Judgment",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "Morning approached, and Belmont held more news than sleep. The arrival of letters had changed fear into relief almost too quickly.",
+      "marks": [
+        {
+          "word": "arrival",
+          "index": 10,
+          "definition": "到达",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "The papers announce that my ships are safe. My wealth is restored, though I had already released myself from expecting it.",
+      "marks": [
+        {
+          "word": "announce",
+          "index": 2,
+          "definition": "宣布",
+          "is_new": true
+        },
+        {
+          "word": "wealth",
+          "index": 9,
+          "definition": "财富",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then let gratitude make you wiser, not merely richer. Fortune returns, but it does not always explain why.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio stood beside her, grateful and humbled. The ring was secure again on his hand, heavier now because he understood it better.",
+      "marks": [
+        {
+          "word": "grateful",
+          "index": 4,
+          "definition": "感激的",
+          "is_new": true
+        },
+        {
+          "word": "secure",
+          "index": 10,
+          "definition": "安全的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "No pressure, no judge, no friend shall draw it from me again.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Good. Let that resolve last longer than the first.",
+      "marks": [
+        {
+          "word": "resolve",
+          "index": 3,
+          "definition": "决心, 解决",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Gratiano made the same promise to Nerissa with comic terror, and she accepted because laughter can release anger when truth has been admitted.",
+      "marks": [
+        {
+          "word": "release",
+          "index": 16,
+          "definition": "释放",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "While I live, I will fear no thing so much as keeping safe Nerissa's ring.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "Fear helps where memory fails. I accept.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Jessica and Lorenzo received their future in a document created from Shylock's punishment. They were grateful, but the source of their wealth remained complicated.",
+      "marks": [
+        {
+          "word": "future",
+          "index": 5,
+          "definition": "未来",
+          "is_new": true
+        },
+        {
+          "word": "grateful",
+          "index": 15,
+          "definition": "感激的",
+          "is_new": false
+        },
+        {
+          "word": "wealth",
+          "index": 21,
+          "definition": "财富",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Jessica",
+      "text": "We gain security from my father's sentence. I cannot rejoice without feeling the cost.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lorenzo",
+      "text": "Then we will use it with care. A hard gift should teach gentle living.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Antonio watched the young couples and said little. He had been rescued by law, mercy, friendship, and the wife his friend had just married.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 14,
+          "definition": "怜悯",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "I came to court ready for death. I leave with ships, friends, and more mercy than I deserved.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 14,
+          "definition": "怜悯",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Mercy is not a merchant account. It does not balance neatly, but it may still restore what justice alone would break.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 0,
+          "definition": "怜悯",
+          "is_new": false
+        },
+        {
+          "word": "restore",
+          "index": 15,
+          "definition": "恢复",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The story did not erase its wounds. Shylock had lost more than money; Antonio had faced the knife; Portia had needed disguise to enter power.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Yet the future opened. Bassanio and Portia, Gratiano and Nerissa, Lorenzo and Jessica all stood inside a peace made from trials.",
+      "marks": [
+        {
+          "word": "future",
+          "index": 2,
+          "definition": "未来",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Let the morning find us better keepers of bonds, rings, and words.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Belmont answered with music. Venice would return to commerce, but those who survived the bond knew that strict contracts need human mercy.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 21,
+          "definition": "怜悯",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The last judgment belonged not to the court but to the life after it: whether gratitude could become action, and wealth could become care.",
+      "marks": [
+        {
+          "word": "wealth",
+          "index": 20,
+          "definition": "财富",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "No one proposed another trial. They had all endured enough judgment for one night, and the future needed ordinary acts more than speeches.",
+      "marks": [
+        {
+          "word": "future",
+          "index": 16,
+          "definition": "未来",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Let every document be read in daylight. At night we too easily mistake relief for understanding.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Antonio accepted the advice. Wealth could restore credit and ships, but it could not release him from thinking about the hatred that almost killed him.",
+      "marks": [
+        {
+          "word": "wealth",
+          "index": 4,
+          "definition": "财富",
+          "is_new": false
+        },
+        {
+          "word": "restore",
+          "index": 6,
+          "definition": "恢复",
+          "is_new": false
+        },
+        {
+          "word": "release",
+          "index": 14,
+          "definition": "释放",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "I am grateful for life. I must learn what to do with a life returned by another person's courage.",
+      "marks": [
+        {
+          "word": "grateful",
+          "index": 2,
+          "definition": "感激的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio and Gratiano kept their rings, not as decorations but as small contracts renewed by embarrassment. Their future depended on remembering the lesson.",
+      "marks": [
+        {
+          "word": "future",
+          "index": 17,
+          "definition": "未来",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then let mercy become a habit, not a speech saved for courts. That is how peace may last.",
+      "marks": [
+        {
+          "word": "mercy",
+          "index": 2,
+          "definition": "怜悯",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The couples remained imperfect, which made the ending livable. They had not escaped law, money, prejudice, or desire; they had survived their collision.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lorenzo",
+      "text": "Let music announce what papers cannot: that the future is open, but not innocent.",
+      "marks": [
+        {
+          "word": "announce",
+          "index": 2,
+          "definition": "宣布",
+          "is_new": false
+        },
+        {
+          "word": "future",
+          "index": 8,
+          "definition": "未来",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "By daylight, every bond looked different. Some were legal, some marital, some chosen by friendship, and all required care beyond words.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The ending is comic because marriages hold, ships return, and music plays. It is serious because every happiness has passed through someone else's pain.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Let us keep the comedy honest. A restored house should remember the storm outside it.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "That memory is what gives the final harmony weight.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "arrival",
+      "definition": "到达",
+      "is_new": true
+    },
+    {
+      "word": "announce",
+      "definition": "宣布",
+      "is_new": true
+    },
+    {
+      "word": "wealth",
+      "definition": "财富",
+      "is_new": true
+    },
+    {
+      "word": "grateful",
+      "definition": "感激的",
+      "is_new": true
+    },
+    {
+      "word": "secure",
+      "definition": "安全的",
+      "is_new": true
+    },
+    {
+      "word": "resolve",
+      "definition": "决心, 解决",
+      "is_new": true
+    },
+    {
+      "word": "release",
+      "definition": "释放",
+      "is_new": true
+    },
+    {
+      "word": "future",
+      "definition": "未来",
+      "is_new": true
+    },
+    {
+      "word": "mercy",
+      "definition": "怜悯",
+      "is_new": false
+    },
+    {
+      "word": "restore",
+      "definition": "恢复",
+      "is_new": false
+    }
+  ]
+}

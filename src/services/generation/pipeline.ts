@@ -1,5 +1,5 @@
 import type { Episode } from '@/src/models/episode';
-import { planNextArc } from './arc-planner';
+import { countPlanningWords, planNextArc, tokenizePlanningText } from './arc-planner';
 import { annotateMessages } from './annotator';
 import { generationLog, textStats } from './debug-log';
 import { formatEpisode } from './episode-formatter';
@@ -66,6 +66,68 @@ function withElapsedSuffix(message: string, startedAt: number): string {
   return `${message}（已等待 ${elapsedSeconds}s）`;
 }
 
+function makeProgressFromPlanEnd(params: {
+  chapters: Chapter[];
+  endChapterId?: number;
+  endWordOffset?: number;
+  totalEpisodesRead: number;
+}): ReadingProgressState | null {
+  if (!params.endChapterId || params.endWordOffset == null) return null;
+  const chapter = params.chapters.find((item) => item.chapter_id === params.endChapterId);
+  if (!chapter) return null;
+  const totalWords = countPlanningWords(chapter.raw_text);
+  if (totalWords <= 0) return null;
+
+  return {
+    current_chapter: params.endChapterId,
+    current_episode: params.totalEpisodesRead + 1,
+    chapter_offset: Math.min(1, Math.max(0, params.endWordOffset / totalWords)),
+    total_episodes_read: params.totalEpisodesRead,
+  };
+}
+
+function findSubsequence(haystack: string[], needle: string[]): number {
+  if (needle.length === 0 || needle.length > haystack.length) return -1;
+  for (let i = 0; i <= haystack.length - needle.length; i++) {
+    let matched = true;
+    for (let j = 0; j < needle.length; j++) {
+      if (haystack[i + j] !== needle[j]) {
+        matched = false;
+        break;
+      }
+    }
+    if (matched) return i;
+  }
+  return -1;
+}
+
+function inferPlanEndFromArcPlan(
+  chapters: Chapter[],
+  arcPlan?: ArcPlan,
+): { endChapterId: number; endWordOffset: number } | null {
+  const mainSlots = [...(arcPlan?.episodes ?? [])]
+    .reverse()
+    .filter((slot) => slot.episode_type === 'main' && slot.source_text?.trim());
+  const lastMainSlot = mainSlots[0];
+  if (!lastMainSlot?.source_text) return null;
+
+  const needle = tokenizePlanningText(lastMainSlot.source_text);
+  if (needle.length === 0) return null;
+
+  for (const chapter of chapters) {
+    const haystack = tokenizePlanningText(chapter.raw_text);
+    const start = findSubsequence(haystack, needle);
+    if (start >= 0) {
+      return {
+        endChapterId: chapter.chapter_id,
+        endWordOffset: start + needle.length,
+      };
+    }
+  }
+
+  return null;
+}
+
 export async function generateEpisodesInApp(params: {
   workId?: string;
   title: string;
@@ -97,6 +159,8 @@ export async function generateEpisodesInApp(params: {
   let chapters = params.resumeFrom?.chapters;
   let arcPlan = params.resumeFrom?.arcPlan;
   let arcPlanScheduled = params.resumeFrom?.arcPlanScheduled ?? false;
+  let planningEndChapterId = params.resumeFrom?.planningEndChapterId;
+  let planningEndWordOffset = params.resumeFrom?.planningEndWordOffset;
   const episodes: Episode[] = [...(params.resumeFrom?.episodes ?? [])];
   let lastStatus: LocalGenerationStatus = {
     phase: 'VOCABULARY',
@@ -122,6 +186,8 @@ export async function generateEpisodesInApp(params: {
       userVocabulary,
       arcPlan,
       arcPlanScheduled,
+      planningEndChapterId,
+      planningEndWordOffset,
       episodes,
       last_error: lastError,
     });
@@ -252,15 +318,75 @@ export async function generateEpisodesInApp(params: {
         prevArc: null,
       });
       arcPlan = planned.arcPlan;
+      planningEndChapterId = planned.endChapterId;
+      planningEndWordOffset = planned.endWordOffset;
       arcPlanScheduled = false;
       generationLog.debug('pipeline.planning.done', {
         runId,
+        endChapterId: planningEndChapterId,
+        endWordOffset: planningEndWordOffset,
         pendingWords: arcPlan.pending_words.length,
         episodes: arcPlan.episodes.map((episode) => ({
           episode_id: episode.episode_id,
           episode_type: episode.episode_type,
           sourceTextChars: episode.source_text?.length ?? 0,
           previousContext: episode.previous_context.length,
+        })),
+      });
+    } else if (
+      params.resumeFrom?.phase === 'COMPLETE'
+      && episodes.length >= arcPlan.episodes.length
+    ) {
+      const inferredEnd = planningEndChapterId && planningEndWordOffset != null
+        ? { endChapterId: planningEndChapterId, endWordOffset: planningEndWordOffset }
+        : inferPlanEndFromArcPlan(chapters, arcPlan);
+      const progress = makeProgressFromPlanEnd({
+        chapters,
+        endChapterId: inferredEnd?.endChapterId,
+        endWordOffset: inferredEnd?.endWordOffset,
+        totalEpisodesRead: episodes.length,
+      });
+
+      if (!progress) {
+        throw new Error('无法定位下一批分集起点，请重新上传或重新生成作品');
+      }
+
+      await checkpoint({
+        phase: 'PLANNING',
+        current: 0,
+        total: 0,
+        message: '正在规划后续分集...',
+      });
+      const planned = planNextArc({
+        arcId: `arc_${Date.now().toString(36)}`,
+        progress,
+        chapters,
+        prevArc: arcPlan,
+      });
+      if (planned.arcPlan.episodes.length === 0) {
+        throw new Error('已经生成到小说末尾');
+      }
+      arcPlan = {
+        arc_id: planned.arcPlan.arc_id,
+        pending_words: planned.arcPlan.pending_words,
+        episodes: [
+          ...arcPlan.episodes,
+          ...planned.arcPlan.episodes,
+        ],
+      };
+      planningEndChapterId = planned.endChapterId;
+      planningEndWordOffset = planned.endWordOffset;
+      arcPlanScheduled = false;
+      generationLog.debug('pipeline.planning.next.done', {
+        runId,
+        start: progress,
+        endChapterId: planningEndChapterId,
+        endWordOffset: planningEndWordOffset,
+        totalEpisodes: arcPlan.episodes.length,
+        newEpisodes: planned.arcPlan.episodes.map((episode) => ({
+          episode_id: episode.episode_id,
+          episode_type: episode.episode_type,
+          sourceTextChars: episode.source_text?.length ?? 0,
         })),
       });
     }
@@ -464,6 +590,8 @@ export async function generateEpisodesInApp(params: {
         userVocabulary,
         arcPlan,
         arcPlanScheduled,
+        planningEndChapterId,
+        planningEndWordOffset,
         episodes,
         last_error: message,
       });

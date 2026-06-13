@@ -22,6 +22,8 @@ export interface LocalGenerationCheckpoint {
   userVocabulary?: UserVocabulary;
   arcPlan?: ArcPlan;
   arcPlanScheduled?: boolean;
+  planningEndChapterId?: number;
+  planningEndWordOffset?: number;
   episodes?: Episode[];
   last_error?: string;
 }

@@ -398,6 +398,7 @@ export default function ReaderScreen() {
       scrollToLatest();
       barsOpacity.value = 0;
       barsAnimTarget.current = 0;
+      setBarsActive(false);
       if (barsTimer.current) { clearTimeout(barsTimer.current); barsTimer.current = null; }
     }, reduceMotion ? 0 : 80);
   }, [

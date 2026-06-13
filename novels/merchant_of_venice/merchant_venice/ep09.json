@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "ep": 9,
+    "title": "Music at Belmont",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "At Belmont, moonlight softened the garden. Lorenzo and Jessica spoke of famous lovers while music filled the house with harmony.",
+      "marks": [
+        {
+          "word": "harmony",
+          "index": 19,
+          "definition": "和谐",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lorenzo",
+      "text": "How sweet the moonlight sleeps upon this bank. Sit, Jessica, and listen.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Jessica",
+      "text": "I am never merry when I hear sweet music. Perhaps it makes the soul too honest.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia and Nerissa arrived before their husbands and entered as if they had never left. Soon Bassanio, Gratiano, and Antonio followed.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Gratiano",
+      "text": "Nerissa, do not quarrel before I greet you. I gave your ring to a clerk, but for a worthy reason.",
+      "marks": [
+        {
+          "word": "quarrel",
+          "index": 3,
+          "definition": "争吵",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Nerissa",
+      "text": "A clerk? Then let that clerk share your bed, since he has my token.",
+      "marks": [
+        {
+          "word": "token",
+          "index": 13,
+          "definition": "信物",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio tried to look innocent, but Portia noticed the empty finger at once. The small ring now commanded the room.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Where is the ring I gave you, my lord?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "If you knew the man to whom I gave it, and why, you would forgive me.",
+      "marks": [
+        {
+          "word": "forgive",
+          "index": 14,
+          "definition": "原谅",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "If you had known the value of the token, you would not have parted with it.",
+      "marks": [
+        {
+          "word": "token",
+          "index": 8,
+          "definition": "信物",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The quarrel grew comic but sharp. Bassanio had to confess fully, blaming gratitude, honor, and Antonio in equal measure.",
+      "marks": [
+        {
+          "word": "quarrel",
+          "index": 1,
+          "definition": "争吵",
+          "is_new": false
+        },
+        {
+          "word": "confess",
+          "index": 9,
+          "definition": "承认",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "I am the unhappy cause. Once I pledged my body for him; now I pledge my soul that he will never break faith again.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Then you shall be his surety again. Give him this ring and tell him to keep it better.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio stared. It was the same ring. Nerissa produced Gratiano's ring too, and laughter began to restore the room.",
+      "marks": [
+        {
+          "word": "restore",
+          "index": 16,
+          "definition": "恢复",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "I was the doctor, and Nerissa was the clerk. We have a document from Bellario to prove it.",
+      "marks": [
+        {
+          "word": "document",
+          "index": 12,
+          "definition": "文件",
+          "is_new": true
+        },
+        {
+          "word": "prove",
+          "index": 16,
+          "definition": "证明",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "You saved Antonio and then judged me at home. I deserve both thanks and shame.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "More news followed. A letter announced that three of Antonio's ships had safely come to harbor after all. His fortune was restored.",
+      "marks": [
+        {
+          "word": "fortune",
+          "index": 19,
+          "definition": "财富",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "Sweet lady, you give life and livelihood in the same night.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Nerissa gave Jessica and Lorenzo a deed naming each one an heir to Shylock. The inheritance carried relief and unease together.",
+      "marks": [
+        {
+          "word": "heir",
+          "index": 11,
+          "definition": "继承人",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Belmont ended the quarrel with music, but every restored fortune had passed through risk, law, and confession first.",
+      "marks": [
+        {
+          "word": "quarrel",
+          "index": 3,
+          "definition": "争吵",
+          "is_new": false
+        },
+        {
+          "word": "fortune",
+          "index": 9,
+          "definition": "财富",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The music in Belmont did not erase Venice; it answered it. After the noise of court, harmony made each guilty pause easier to hear.",
+      "marks": [
+        {
+          "word": "harmony",
+          "index": 16,
+          "definition": "和谐",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "You gave away my token to a doctor. I wonder what else gratitude persuaded you to give.",
+      "marks": [
+        {
+          "word": "token",
+          "index": 4,
+          "definition": "信物",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Nothing but the ring, and even that I would restore with my right hand if I could.",
+      "marks": [
+        {
+          "word": "restore",
+          "index": 9,
+          "definition": "恢复",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "When Portia revealed the document, Bassanio saw that the judge who saved Antonio had also watched his own failure at close range.",
+      "marks": [
+        {
+          "word": "document",
+          "index": 4,
+          "definition": "文件",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Antonio",
+      "text": "I was debtor once, then defendant, now surety for a marriage promise. Let this prove my faith better.",
+      "marks": [
+        {
+          "word": "prove",
+          "index": 14,
+          "definition": "证明",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The announcement of restored ships widened the ending beyond romance. Fortune returned to Antonio, while Jessica and Lorenzo became heir to a painful estate.",
+      "marks": [
+        {
+          "word": "fortune",
+          "index": 10,
+          "definition": "财富",
+          "is_new": false
+        },
+        {
+          "word": "heir",
+          "index": 19,
+          "definition": "继承人",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Forgiveness in Belmont therefore sounded like music with a minor note: bright enough to dance to, honest enough to remember the cost.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Portia did not humiliate Bassanio merely to win. She restored the ring so the promise could begin again with clearer knowledge.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Bassanio",
+      "text": "Your mercy after my confession teaches me more than your anger did.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The reveal gave Portia authority in her own house without the robe. She no longer needed disguise because the proof had arrived before argument.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Portia",
+      "text": "Keep the ring now with knowledge, not with easy poetry.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Bassanio accepted the rebuke because love had survived being corrected.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "harmony",
+      "definition": "和谐",
+      "is_new": true
+    },
+    {
+      "word": "quarrel",
+      "definition": "争吵",
+      "is_new": true
+    },
+    {
+      "word": "token",
+      "definition": "信物",
+      "is_new": false
+    },
+    {
+      "word": "forgive",
+      "definition": "原谅",
+      "is_new": true
+    },
+    {
+      "word": "confess",
+      "definition": "承认",
+      "is_new": true
+    },
+    {
+      "word": "restore",
+      "definition": "恢复",
+      "is_new": true
+    },
+    {
+      "word": "document",
+      "definition": "文件",
+      "is_new": true
+    },
+    {
+      "word": "prove",
+      "definition": "证明",
+      "is_new": false
+    },
+    {
+      "word": "fortune",
+      "definition": "财富",
+      "is_new": false
+    },
+    {
+      "word": "heir",
+      "definition": "继承人",
+      "is_new": true
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "meta": {
+    "ep": 5,
+    "title": "The Lamplighter and the Geographer",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "The fifth planet was smaller than all the others, with room only for a lamp and a lamplighter who moved with tired precision.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lamplighter",
+      "text": "Good evening.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He lit the lamp. A minute later he put it out and said good morning, though no night had truly passed.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Why do you do that?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lamplighter",
+      "text": "It is my duty. The schedule changed. The planet turns faster each year, but the order did not change.",
+      "marks": [
+        {
+          "word": "duty",
+          "index": 3,
+          "definition": "职责",
+          "is_new": true
+        },
+        {
+          "word": "schedule",
+          "index": 5,
+          "definition": "时间表",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Unlike the king, he did not love authority. Unlike the businessman, he did not pretend to be important. He was simply faithful.",
+      "marks": [
+        {
+          "word": "authority",
+          "index": 7,
+          "definition": "权威",
+          "is_new": false
+        },
+        {
+          "word": "faithful",
+          "index": 21,
+          "definition": "忠实的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "You are the only adult I might like, because your work is useful to someone besides yourself.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lamplighter",
+      "text": "Useful or not, the constant turning will exhaust me. I have no time to sleep. Good evening. Good morning.",
+      "marks": [
+        {
+          "word": "constant",
+          "index": 4,
+          "definition": "持续的",
+          "is_new": true
+        },
+        {
+          "word": "exhaust",
+          "index": 7,
+          "definition": "使筋疲力尽",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The prince wished to help, but the planet was too small for both friendship and rest. He left with respect and regret.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The sixth planet was large and quiet. A geographer sat at a desk with thick books, ready to record mountains, rivers, and cities.",
+      "marks": [
+        {
+          "word": "record",
+          "index": 18,
+          "definition": "记录",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Geographer",
+      "text": "Ah, an explorer. Tell me what you have seen.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I have seen a flower, three volcanoes, and several serious adults.",
+      "marks": [
+        {
+          "word": "serious",
+          "index": 9,
+          "definition": "严肃的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Geographer",
+      "text": "Flowers are temporary. We do not record temporary things in geography.",
+      "marks": [
+        {
+          "word": "temporary",
+          "index": 2,
+          "definition": "暂时的",
+          "is_new": true
+        },
+        {
+          "word": "record",
+          "index": 6,
+          "definition": "记录",
+          "is_new": false
+        },
+        {
+          "word": "temporary",
+          "index": 7,
+          "definition": "暂时的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Temporary means it will disappear?",
+      "marks": [
+        {
+          "word": "temporary",
+          "index": 0,
+          "definition": "暂时的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Geographer",
+      "text": "Yes. Sooner or later.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The word struck him harder than any command. He had left his rose alone under a sky where even petals could vanish.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Where should I explore next?",
+      "marks": [
+        {
+          "word": "explore",
+          "index": 3,
+          "definition": "探索",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Geographer",
+      "text": "Earth. It has a good reputation. Many kings, many businessmen, many flowers, and many lamplighters.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The prince thanked him, but his heart stayed behind with the temporary rose. Records could not protect what they named.",
+      "marks": [
+        {
+          "word": "temporary",
+          "index": 11,
+          "definition": "暂时的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He set out for Earth, carrying the faithful lamplighter in his thoughts and a new fear that love may have a schedule of its own.",
+      "marks": [
+        {
+          "word": "faithful",
+          "index": 7,
+          "definition": "忠实的",
+          "is_new": false
+        },
+        {
+          "word": "schedule",
+          "index": 21,
+          "definition": "时间表",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The lamplighter kept no audience, gained no wealth, and received no praise. Still, each flame gave the prince a feeling of order in the dark.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If your planet turned more slowly, you could rest and still be faithful to your duty.",
+      "marks": [
+        {
+          "word": "faithful",
+          "index": 12,
+          "definition": "忠实的",
+          "is_new": false
+        },
+        {
+          "word": "duty",
+          "index": 15,
+          "definition": "职责",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Lamplighter",
+      "text": "That would be pleasant. But pleasant things are not written in my schedule. Good evening. Good morning.",
+      "marks": [
+        {
+          "word": "schedule",
+          "index": 12,
+          "definition": "时间表",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Leaving him felt different from leaving the others. The prince did not laugh. He wished a larger planet could reward faithful labor with sleep.",
+      "marks": [
+        {
+          "word": "faithful",
+          "index": 20,
+          "definition": "忠实的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The geographer seemed wiser at first because books surrounded him. Yet his wisdom depended on explorers, while he never explored his own horizon.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Geographer",
+      "text": "A flower is not reliable evidence. It changes too quickly. Mountains remain; flowers are temporary.",
+      "marks": [
+        {
+          "word": "temporary",
+          "index": 14,
+          "definition": "暂时的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "That sentence followed the prince toward Earth. For the first time, the rose seemed not troublesome but fragile, and distance became an ache.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The prince thought often of the lamplighter after leaving him. A faithful person without rest seemed nobler and sadder than a king without subjects.",
+      "marks": [
+        {
+          "word": "faithful",
+          "index": 11,
+          "definition": "忠实的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If I had stayed, perhaps we could have moved the chair slowly and shared sunsets between duties.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The geographer noticed none of that feeling. He sharpened his pencil, ready to record distant facts, but unable to comfort a traveler before him.",
+      "marks": [
+        {
+          "word": "record",
+          "index": 13,
+          "definition": "记录",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Geographer",
+      "text": "Regret is not geography. Tell me instead whether your volcanoes are active.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The lamplighter remained the one adult whose seriousness seemed connected to service. That difference mattered to the prince more than the man knew.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If I ever become serious, I hope it is for a lamp or a flower, not for a ledger.",
+      "marks": [
+        {
+          "word": "serious",
+          "index": 4,
+          "definition": "严肃的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The geographer gave him direction, but the lamplighter gave him an example of duty with a human cost.",
+      "marks": [
+        {
+          "word": "duty",
+          "index": 13,
+          "definition": "职责",
+          "is_new": false
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "duty",
+      "definition": "职责",
+      "is_new": true
+    },
+    {
+      "word": "schedule",
+      "definition": "时间表",
+      "is_new": true
+    },
+    {
+      "word": "authority",
+      "definition": "权威",
+      "is_new": false
+    },
+    {
+      "word": "faithful",
+      "definition": "忠实的",
+      "is_new": true
+    },
+    {
+      "word": "constant",
+      "definition": "持续的",
+      "is_new": true
+    },
+    {
+      "word": "exhaust",
+      "definition": "使筋疲力尽",
+      "is_new": true
+    },
+    {
+      "word": "record",
+      "definition": "记录",
+      "is_new": true
+    },
+    {
+      "word": "serious",
+      "definition": "严肃的",
+      "is_new": false
+    },
+    {
+      "word": "temporary",
+      "definition": "暂时的",
+      "is_new": true
+    },
+    {
+      "word": "explore",
+      "definition": "探索",
+      "is_new": true
+    }
+  ]
+}

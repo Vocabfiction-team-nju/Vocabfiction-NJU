@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "ep": 6,
+    "title": "Earth, the Snake, and the Garden",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "Earth was not one small planet but a massive world with deserts, mountains, oceans, cities, and more adults than he could imagine.",
+      "marks": [
+        {
+          "word": "massive",
+          "index": 8,
+          "definition": "巨大的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Yet the little prince landed in a silent desert. The first creature he met was a snake, thin as a golden bracelet.",
+      "marks": [
+        {
+          "word": "creature",
+          "index": 11,
+          "definition": "生物",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Snake",
+      "text": "Where are the people? It is lonely among men too.",
+      "marks": [
+        {
+          "word": "lonely",
+          "index": 6,
+          "definition": "孤独的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I fell from the sky. I am looking for friends and perhaps a way back to my flower.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Snake",
+      "text": "My poison sends people back to the earth from which they came. If you ever need help, I can help.",
+      "marks": [
+        {
+          "word": "poison",
+          "index": 1,
+          "definition": "毒药",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The prince did not understand the offer, but the snake spoke with such quiet power that the desert seemed less empty and more dangerous.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He crossed sand, climbed a mountain, and called into the air. Only an echo returned his words.",
+      "marks": [
+        {
+          "word": "echo",
+          "index": 13,
+          "definition": "回声",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Be my friends. I am alone.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Echo",
+      "text": "I am alone.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "On his planet, a mountain would have been a volcano and an answer would have been a rose. Here even his voice came back lonely.",
+      "marks": [
+        {
+          "word": "lonely",
+          "index": 24,
+          "definition": "孤独的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "At last he found a road and followed it to a garden filled with roses. Thousands of roses moved in the wind.",
+      "marks": [
+        {
+          "word": "garden",
+          "index": 11,
+          "definition": "花园",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Good morning.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "Good morning.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "They looked like his flower, delicate and proud, yet none recognized him. His rose had said she was unique in the universe.",
+      "marks": [
+        {
+          "word": "unique",
+          "index": 18,
+          "definition": "独特的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I thought I possessed a flower unlike any other. Now I see a whole garden of them.",
+      "marks": [
+        {
+          "word": "garden",
+          "index": 14,
+          "definition": "花园",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He lay in the grass and cried. If his rose was only one temporary rose among thousands, what made his leaving matter?",
+      "marks": [
+        {
+          "word": "temporary",
+          "index": 13,
+          "definition": "暂时的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The question hurt more than the snake, more than the desert, more than the echo from the distant mountain.",
+      "marks": [
+        {
+          "word": "echo",
+          "index": 14,
+          "definition": "回声",
+          "is_new": false
+        },
+        {
+          "word": "distant",
+          "index": 17,
+          "definition": "遥远的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He had come to explore Earth, but Earth first showed him how large loneliness could become when love lost its shape.",
+      "marks": [
+        {
+          "word": "explore",
+          "index": 4,
+          "definition": "探索",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I am not a great prince. I own a tiny planet, three volcanoes, and one ordinary rose.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He did not know yet that a garden can hide the meaning of one flower until someone teaches the difference.",
+      "marks": [
+        {
+          "word": "garden",
+          "index": 7,
+          "definition": "花园",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Later he would learn that Earth held crowds, but his first lesson was emptiness. A massive planet can still meet a traveler with silence.",
+      "marks": [
+        {
+          "word": "massive",
+          "index": 15,
+          "definition": "巨大的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Snake",
+      "text": "You are pure enough to make me pity you. I am more powerful than the finger of a king.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Power that hides in poison is strange. I would rather find a road.",
+      "marks": [
+        {
+          "word": "poison",
+          "index": 4,
+          "definition": "毒药",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The mountain gave him only echo, a poor imitation of company. He began to miss the rose precisely because she never merely repeated him.",
+      "marks": [
+        {
+          "word": "echo",
+          "index": 5,
+          "definition": "回声",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "When the garden appeared, beauty multiplied until it became painful. Thousands of roses made one rose seem less grand and more necessary.",
+      "marks": [
+        {
+          "word": "garden",
+          "index": 2,
+          "definition": "花园",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If she is not unique by appearance, perhaps I have misunderstood what unique means.",
+      "marks": [
+        {
+          "word": "unique",
+          "index": 4,
+          "definition": "独特的",
+          "is_new": false
+        },
+        {
+          "word": "unique",
+          "index": 12,
+          "definition": "独特的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He did not yet have the answer, but the question had changed. The garden had opened a wound that only friendship could explain.",
+      "marks": [
+        {
+          "word": "garden",
+          "index": 13,
+          "definition": "花园",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The snake did not chase him. That made the poison more frightening. It waited with patient certainty, like a door that opens only once.",
+      "marks": [
+        {
+          "word": "poison",
+          "index": 9,
+          "definition": "毒药",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I came looking for people, but the first voice on Earth offers an ending.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The garden then offered the opposite danger: not death, but too much beauty. It threatened to make his one beloved flower disappear into numbers.",
+      "marks": [
+        {
+          "word": "garden",
+          "index": 1,
+          "definition": "花园",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Among the roses, he began to understand that numbers can wound as deeply as they can impress. One beloved thing had been buried under thousands.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Maybe I was wrong to ask whether she was rare. I should ask whether I was faithful.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "That question prepared him for the fox before he knew the fox existed.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "massive",
+      "definition": "巨大的",
+      "is_new": true
+    },
+    {
+      "word": "creature",
+      "definition": "生物",
+      "is_new": true
+    },
+    {
+      "word": "lonely",
+      "definition": "孤独的",
+      "is_new": true
+    },
+    {
+      "word": "poison",
+      "definition": "毒药",
+      "is_new": true
+    },
+    {
+      "word": "echo",
+      "definition": "回声",
+      "is_new": true
+    },
+    {
+      "word": "garden",
+      "definition": "花园",
+      "is_new": true
+    },
+    {
+      "word": "unique",
+      "definition": "独特的",
+      "is_new": true
+    },
+    {
+      "word": "temporary",
+      "definition": "暂时的",
+      "is_new": false
+    },
+    {
+      "word": "distant",
+      "definition": "遥远的",
+      "is_new": true
+    },
+    {
+      "word": "explore",
+      "definition": "探索",
+      "is_new": false
+    }
+  ]
+}

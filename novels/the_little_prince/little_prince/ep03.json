@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "ep": 3,
+    "title": "The Rose and the Departure",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "In the desert, the little prince explained that he had not always lived alone with volcanoes and a routine. One morning a new shoot began to appear unlike the baobabs.",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 2,
+          "definition": "沙漠",
+          "is_new": false
+        },
+        {
+          "word": "routine",
+          "index": 18,
+          "definition": "惯例",
+          "is_new": false
+        },
+        {
+          "word": "appear",
+          "index": 26,
+          "definition": "出现",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I watched it carefully. It took a long time to prepare itself. A flower should not cause so much suspense.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "At last the rose opened, delicate and bright, as if sunrise had chosen to live on his planet. She looked at him and yawned.",
+      "marks": [
+        {
+          "word": "delicate",
+          "index": 5,
+          "definition": "娇嫩的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "I believe it is breakfast time. Would you be kind enough to think of me?",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He found water at once. Her beauty made him happy, but her pride soon made every simple task feel like a test.",
+      "marks": [
+        {
+          "word": "pride",
+          "index": 12,
+          "definition": "骄傲",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "My petals are strong, but I dislike drafts. A screen would protect me. At night I need a glass shelter.",
+      "marks": [
+        {
+          "word": "protect",
+          "index": 11,
+          "definition": "保护",
+          "is_new": true
+        },
+        {
+          "word": "shelter",
+          "index": 19,
+          "definition": "庇护",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I brought the screen, and I brought the shelter. Are you comfortable now?",
+      "marks": [
+        {
+          "word": "shelter",
+          "index": 8,
+          "definition": "庇护",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "As comfortable as one can be on such a windy planet. I come from a place with tigers, you know.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "There were no tigers there, and roses have thorns for only a small defense. Still, he believed her because he wanted to believe.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Her words were vain, but not cruel. She was young, afraid, and too proud to show a sincere need plainly.",
+      "marks": [
+        {
+          "word": "vain",
+          "index": 3,
+          "definition": "虚荣的",
+          "is_new": true
+        },
+        {
+          "word": "sincere",
+          "index": 17,
+          "definition": "真诚的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I should have judged her by what she did, not only by what she said. She gave scent and color to my life.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "At the time, however, every cough and complaint became a conflict. He felt accused, confused, and suddenly eager to escape his own home.",
+      "marks": [
+        {
+          "word": "conflict",
+          "index": 10,
+          "definition": "冲突",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "You are leaving? Then go. I was foolish. Try to be happy. Do not cover me with the glass tonight.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "But the wind will come.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "I must endure a few caterpillars if I want to meet butterflies.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Her courage sounded almost sincere, and that made his departure harder. He cleaned the volcanoes one last time and pulled the final baobab shoots.",
+      "marks": [
+        {
+          "word": "sincere",
+          "index": 4,
+          "definition": "真诚的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The routine of care became farewell. The little planet looked too small for his sadness and too large for one rose left alone.",
+      "marks": [
+        {
+          "word": "routine",
+          "index": 1,
+          "definition": "惯例",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Goodbye.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "Goodbye. I love you. You did not know it. That was my fault.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He left by a passing flock of wild birds, carrying confusion, pride, and a love he did not yet understand.",
+      "marks": [
+        {
+          "word": "pride",
+          "index": 11,
+          "definition": "骄傲",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The rose had filled his mornings with fragrance before she filled them with anxiety. Even her vanity had arrived wrapped in color and perfume.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "When she coughed, I thought she was blaming me. Now I think she only wanted me to stay near.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He was too young to understand that pride can be a poor shelter for fear. She was too proud to ask plainly for tenderness.",
+      "marks": [
+        {
+          "word": "pride",
+          "index": 7,
+          "definition": "骄傲",
+          "is_new": false
+        },
+        {
+          "word": "shelter",
+          "index": 12,
+          "definition": "庇护",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Rose",
+      "text": "Do not linger over goodbye. If I let you see me cry, you will think I am ordinary.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I did not know how to answer. I wanted to protect her, but I also wanted to escape the conflict.",
+      "marks": [
+        {
+          "word": "protect",
+          "index": 10,
+          "definition": "保护",
+          "is_new": false
+        },
+        {
+          "word": "conflict",
+          "index": 19,
+          "definition": "冲突",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "So he left with love disguised as irritation. The birds lifted him away while the glass shelter stood unused in the morning light.",
+      "marks": [
+        {
+          "word": "shelter",
+          "index": 16,
+          "definition": "庇护",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "While he spoke, I realized that leaving is sometimes easier than learning another heart. The rose had asked for shelter, but he had needed guidance too.",
+      "marks": [
+        {
+          "word": "shelter",
+          "index": 19,
+          "definition": "庇护",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I knew how to clean volcanoes. I did not know how to answer a flower.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The more he remembered, the more the rose changed in his telling. She was no longer only vain; she was delicate, proud, afraid, and beloved.",
+      "marks": [
+        {
+          "word": "vain",
+          "index": 17,
+          "definition": "虚荣的",
+          "is_new": false
+        },
+        {
+          "word": "delicate",
+          "index": 20,
+          "definition": "娇嫩的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "I left because I was hurt, but I think she was hurt first.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "desert",
+      "definition": "沙漠",
+      "is_new": false
+    },
+    {
+      "word": "routine",
+      "definition": "惯例",
+      "is_new": false
+    },
+    {
+      "word": "appear",
+      "definition": "出现",
+      "is_new": true
+    },
+    {
+      "word": "delicate",
+      "definition": "娇嫩的",
+      "is_new": true
+    },
+    {
+      "word": "pride",
+      "definition": "骄傲",
+      "is_new": true
+    },
+    {
+      "word": "protect",
+      "definition": "保护",
+      "is_new": true
+    },
+    {
+      "word": "shelter",
+      "definition": "庇护",
+      "is_new": true
+    },
+    {
+      "word": "vain",
+      "definition": "虚荣的",
+      "is_new": true
+    },
+    {
+      "word": "sincere",
+      "definition": "真诚的",
+      "is_new": true
+    },
+    {
+      "word": "conflict",
+      "definition": "冲突",
+      "is_new": true
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "ep": 10,
+    "title": "The Laughing Stars",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "I began to recover enough to fly the plane home, but the desert did not release me completely. It sent a signal through every star.",
+      "marks": [
+        {
+          "word": "recover",
+          "index": 3,
+          "definition": "恢复",
+          "is_new": true
+        },
+        {
+          "word": "signal",
+          "index": 21,
+          "definition": "信号",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "At night I looked upward and wondered which light belonged to the little prince. Distance had become both pain and comfort.",
+      "marks": [
+        {
+          "word": "distance",
+          "index": 14,
+          "definition": "距离",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Somewhere a small boy may be laughing beside a rose. Somewhere a sheep may be sleeping inside a box.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Years passed. Adults asked whether my engine trouble had been difficult, and I gave ordinary answers. I did not explain the absence that followed me.",
+      "marks": [
+        {
+          "word": "absence",
+          "index": 21,
+          "definition": "缺席, 不在",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The memory remained sharper than maps: a scarf in the wind, a serious request, a well at dawn, a gentle fall in the sand.",
+      "marks": [
+        {
+          "word": "memory",
+          "index": 1,
+          "definition": "记忆",
+          "is_new": false
+        },
+        {
+          "word": "gentle",
+          "index": 19,
+          "definition": "温柔的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I drew the muzzle later and discovered a terrible mistake. I had forgotten the leather strap. A promise can fail through one small absence.",
+      "marks": [
+        {
+          "word": "promise",
+          "index": 17,
+          "definition": "承诺",
+          "is_new": false
+        },
+        {
+          "word": "absence",
+          "index": 23,
+          "definition": "缺席, 不在",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Did the sheep eat the rose? Did the prince return in time? I do not know.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "No adult answer can settle that question. Some nights the stars laugh clearly, and I feel faith that the rose is safe.",
+      "marks": [
+        {
+          "word": "faith",
+          "index": 16,
+          "definition": "信任",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Other nights they sound like tears, and I observe the sky with the fear of someone who forgot a strap.",
+      "marks": [
+        {
+          "word": "observe",
+          "index": 8,
+          "definition": "观察",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "This is why the desert remains important to me. On a map it is only empty distance, but in memory it hides a well and a child.",
+      "marks": [
+        {
+          "word": "distance",
+          "index": 16,
+          "definition": "距离",
+          "is_new": false
+        },
+        {
+          "word": "memory",
+          "index": 19,
+          "definition": "记忆",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "If you travel there and meet a golden-haired boy who asks questions, please be gentle with him.",
+      "marks": [
+        {
+          "word": "gentle",
+          "index": 14,
+          "definition": "温柔的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Do not hurry past. Do not answer like a busy adult. Listen for the wonder beneath the simple request.",
+      "marks": [
+        {
+          "word": "wonder",
+          "index": 14,
+          "definition": "惊奇",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "If he laughs and refuses to answer your questions, write to me quickly. His return would heal an absence I still carry.",
+      "marks": [
+        {
+          "word": "absence",
+          "index": 18,
+          "definition": "缺席, 不在",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Until then I keep looking. The stars are no longer only stars. They are small bells, distant wells, and a promise still asking to be kept.",
+      "marks": [
+        {
+          "word": "promise",
+          "index": 20,
+          "definition": "承诺",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "The little prince taught me that what we tame continues to call us. Even when invisible, it changes how we see everything visible.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "So I watch the sky with a pilot eye and a child heart, hoping the signal of laughter means the rose has survived.",
+      "marks": [
+        {
+          "word": "signal",
+          "index": 15,
+          "definition": "信号",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "That hope is my final drawing: a box, a sheep, a rose, and a boy somewhere beyond reach.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Perhaps the drawing is unfinished. Perhaps all love is unfinished, held between faith and fear, asking us to protect what distance hides.",
+      "marks": [
+        {
+          "word": "faith",
+          "index": 12,
+          "definition": "信任",
+          "is_new": false
+        },
+        {
+          "word": "distance",
+          "index": 20,
+          "definition": "距离",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "When the night is clear, I choose faith. I let the stars laugh, and for a moment the desert becomes gentle again.",
+      "marks": [
+        {
+          "word": "faith",
+          "index": 7,
+          "definition": "信任",
+          "is_new": false
+        },
+        {
+          "word": "gentle",
+          "index": 20,
+          "definition": "温柔的",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Then I remember his face, and the whole sky feels less empty.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I have told this story badly if you think it is only sad. It is also full of wonder.",
+      "marks": [
+        {
+          "word": "wonder",
+          "index": 18,
+          "definition": "惊奇",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Wonder is why I still look up. A single star can hold absence and comfort together, like a question no adult map can close.",
+      "marks": [
+        {
+          "word": "wonder",
+          "index": 0,
+          "definition": "惊奇",
+          "is_new": false
+        },
+        {
+          "word": "absence",
+          "index": 12,
+          "definition": "缺席, 不在",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Sometimes I hear his laughter clearly, and the signal feels like bells tied to every point of light.",
+      "marks": [
+        {
+          "word": "signal",
+          "index": 8,
+          "definition": "信号",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "At other times memory grows anxious. I picture the sheep, the rose, and the missing strap, and faith must begin again.",
+      "marks": [
+        {
+          "word": "memory",
+          "index": 3,
+          "definition": "记忆",
+          "is_new": false
+        },
+        {
+          "word": "faith",
+          "index": 17,
+          "definition": "信任",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "So if you see him, do not let him disappear into polite answers. Tell me he came back.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "Until then, every clear night asks me to choose: count the stars like a businessman, or listen to them like a friend.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "I leave the question open because love often leaves us with questions. The answer may depend on how carefully we listen tonight.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "The story ends there only because my knowledge ends there. His life, if he returned, belongs again to his rose and his star.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "Mine belongs to listening for him.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "recover",
+      "definition": "恢复",
+      "is_new": true
+    },
+    {
+      "word": "signal",
+      "definition": "信号",
+      "is_new": true
+    },
+    {
+      "word": "distance",
+      "definition": "距离",
+      "is_new": true
+    },
+    {
+      "word": "absence",
+      "definition": "缺席, 不在",
+      "is_new": true
+    },
+    {
+      "word": "memory",
+      "definition": "记忆",
+      "is_new": false
+    },
+    {
+      "word": "gentle",
+      "definition": "温柔的",
+      "is_new": true
+    },
+    {
+      "word": "promise",
+      "definition": "承诺",
+      "is_new": false
+    },
+    {
+      "word": "faith",
+      "definition": "信任",
+      "is_new": true
+    },
+    {
+      "word": "observe",
+      "definition": "观察",
+      "is_new": true
+    },
+    {
+      "word": "wonder",
+      "definition": "惊奇",
+      "is_new": true
+    }
+  ]
+}

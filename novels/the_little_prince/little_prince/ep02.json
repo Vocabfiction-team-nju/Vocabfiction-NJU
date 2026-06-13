@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "ep": 2,
+    "title": "The Tiny Planet",
+    "kind": "main"
+  },
+  "messages": [
+    {
+      "type": "narration",
+      "text": "On the second day in the desert, the little prince sat near the engine while I worked. He never asked why metal mattered more than breakfast.",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 6,
+          "definition": "沙漠",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If a sheep eats small bushes, will it also eat flowers?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "A sheep eats whatever it finds. Why does that question carry such danger?",
+      "marks": [
+        {
+          "word": "danger",
+          "index": 12,
+          "definition": "危险",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He did not answer. Instead, he described a planet so tiny that a chair could be moved a few steps to watch another sunset.",
+      "marks": [
+        {
+          "word": "planet",
+          "index": 8,
+          "definition": "行星",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "My planet has three volcanoes. Two are active, and one may be sleeping, but I clean all three.",
+      "marks": [
+        {
+          "word": "planet",
+          "index": 1,
+          "definition": "行星",
+          "is_new": false
+        },
+        {
+          "word": "active",
+          "index": 7,
+          "definition": "活跃的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "His routine sounded strange, yet he spoke of it like any careful housekeeper. Each morning he would inspect the surface after breakfast.",
+      "marks": [
+        {
+          "word": "routine",
+          "index": 1,
+          "definition": "惯例",
+          "is_new": true
+        },
+        {
+          "word": "inspect",
+          "index": 17,
+          "definition": "检查",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Good plants and bad plants look the same when they are young. The bad ones must be pulled by the root.",
+      "marks": [
+        {
+          "word": "root",
+          "index": 20,
+          "definition": "根",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "What happens if you miss one?",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Then a baobab grows. Its root cracks everything. A small planet cannot carry that burden.",
+      "marks": [
+        {
+          "word": "root",
+          "index": 5,
+          "definition": "根",
+          "is_new": false
+        },
+        {
+          "word": "planet",
+          "index": 10,
+          "definition": "行星",
+          "is_new": false
+        },
+        {
+          "word": "burden",
+          "index": 14,
+          "definition": "负担",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "I understood then why my sheep had mattered. A sheep could eat the dangerous shoots before they became a disaster.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "He asked for a muzzle too, because even useful sheep can cause harm. I promised one, then lost myself in the repair again.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "You speak like the adult people who count stars and forget flowers.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I am trying to stay alive in the desert. That is also a serious matter.",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 8,
+          "definition": "沙漠",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He looked hurt, and the narrow space between us filled with silence. I had answered a child with the impatience of an adult.",
+      "marks": [
+        {
+          "word": "narrow",
+          "index": 5,
+          "definition": "狭窄的",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If someone loves a flower on one planet, it is good to look at the sky and know that flower is there.",
+      "marks": [
+        {
+          "word": "planet",
+          "index": 7,
+          "definition": "行星",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "His voice shook. The desert wind moved around us, and suddenly the broken engine seemed less urgent than his hidden flower.",
+      "marks": [
+        {
+          "word": "desert",
+          "index": 4,
+          "definition": "沙漠",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I will draw the muzzle. I should have listened to the request better.",
+      "marks": [
+        {
+          "word": "request",
+          "index": 11,
+          "definition": "请求",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He forgave me without saying the word. Then he returned to his small planet in memory, to volcanoes, sunsets, and dangerous roots.",
+      "marks": [
+        {
+          "word": "planet",
+          "index": 13,
+          "definition": "行星",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "That night I learned that a routine can be a form of love, and that a tiny burden may outweigh an adult machine.",
+      "marks": [
+        {
+          "word": "routine",
+          "index": 6,
+          "definition": "惯例",
+          "is_new": false
+        },
+        {
+          "word": "burden",
+          "index": 17,
+          "definition": "负担",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "Above us, the stars looked like sparks from another engine, each one perhaps carrying a planet too small for careless eyes.",
+      "marks": [
+        {
+          "word": "planet",
+          "index": 15,
+          "definition": "行星",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He explained that small problems must be handled while they are still small. A careless morning could become a disaster no evening labor could repair.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "A baobab is not dangerous when it is tiny. That is why danger must be noticed before it looks important.",
+      "marks": [
+        {
+          "word": "danger",
+          "index": 12,
+          "definition": "危险",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "So the sheep is not a toy. It is part of your routine and part of your defense.",
+      "marks": [
+        {
+          "word": "routine",
+          "index": 12,
+          "definition": "惯例",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He nodded and watched me sharpen my pencil. I promised to draw the baobabs so children on Earth would understand the warning.",
+      "marks": []
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "Adults need pictures. They believe numbers, but sometimes they need pictures more than numbers.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "That remark wounded my pride and healed it at the same time. I had once been a child with pictures; perhaps I could be useful again.",
+      "marks": []
+    },
+    {
+      "type": "narration",
+      "text": "To help him, I made the baobab drawing bold and almost frightening. Children would understand that a root can begin as a thread and end as ruin.",
+      "marks": [
+        {
+          "word": "root",
+          "index": 17,
+          "definition": "根",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "right",
+      "name": "Narrator",
+      "text": "I will draw the danger large, even if adults say the picture is too dramatic.",
+      "marks": [
+        {
+          "word": "danger",
+          "index": 4,
+          "definition": "危险",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "narration",
+      "text": "He described sunsets with the same care he gave to weeds. On a tiny planet, beauty and danger both arrive close enough to touch.",
+      "marks": [
+        {
+          "word": "planet",
+          "index": 14,
+          "definition": "行星",
+          "is_new": false
+        },
+        {
+          "word": "danger",
+          "index": 17,
+          "definition": "危险",
+          "is_new": false
+        }
+      ]
+    },
+    {
+      "type": "dialogue",
+      "side": "left",
+      "name": "Little Prince",
+      "text": "If you wait one minute and move the chair, evening can happen again.",
+      "marks": []
+    }
+  ],
+  "vocab": [
+    {
+      "word": "desert",
+      "definition": "沙漠",
+      "is_new": false
+    },
+    {
+      "word": "danger",
+      "definition": "危险",
+      "is_new": true
+    },
+    {
+      "word": "planet",
+      "definition": "行星",
+      "is_new": true
+    },
+    {
+      "word": "active",
+      "definition": "活跃的",
+      "is_new": true
+    },
+    {
+      "word": "routine",
+      "definition": "惯例",
+      "is_new": true
+    },
+    {
+      "word": "inspect",
+      "definition": "检查",
+      "is_new": true
+    },
+    {
+      "word": "root",
+      "definition": "根",
+      "is_new": true
+    },
+    {
+      "word": "burden",
+      "definition": "负担",
+      "is_new": true
+    },
+    {
+      "word": "narrow",
+      "definition": "狭窄的",
+      "is_new": true
+    },
+    {
+      "word": "request",
+      "definition": "请求",
+      "is_new": false
+    }
+  ]
+}

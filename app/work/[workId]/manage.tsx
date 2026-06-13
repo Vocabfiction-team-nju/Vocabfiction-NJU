@@ -46,6 +46,9 @@ export default function WorkManageScreen() {
   >('loading');
   const [errorText, setErrorText] = useState('');
   const [generationText, setGenerationText] = useState('');
+  const isBlocking = status === 'loading'
+    || status === 'saving'
+    || status === 'generating';
 
   const loadData = useCallback(async () => {
     if (!workId) {
@@ -91,7 +94,7 @@ export default function WorkManageScreen() {
   );
 
   const handleSelectWordList = async (wordListId: string) => {
-    if (!work || status === 'saving' || wordListId === selectedWordListId) return;
+    if (!work || isBlocking || wordListId === selectedWordListId) return;
 
     try {
       setStatus('saving');
@@ -107,7 +110,7 @@ export default function WorkManageScreen() {
   };
 
   const handleSaveTitle = async () => {
-    if (!work || status === 'saving') return;
+    if (!work || isBlocking) return;
 
     const nextTitle = titleDraft.trim();
     if (!nextTitle) {
@@ -131,7 +134,7 @@ export default function WorkManageScreen() {
   };
 
   const deleteUserWork = async () => {
-    if (!work || work.source !== 'user') return;
+    if (!work || work.source !== 'user' || isBlocking) return;
 
     try {
       setStatus('saving');
@@ -159,8 +162,21 @@ export default function WorkManageScreen() {
     return checkpoint.message;
   }, [checkpoint]);
 
+  const showGenerationSection = work?.source === 'user'
+    && (work.total_eps === 0 || checkpoint != null);
+  const generationHint = status === 'generating'
+    ? generationText || '正在生成...'
+    : checkpoint?.phase === 'COMPLETE' && (work?.total_eps ?? 0) > 0
+      ? `已生成 ${work?.total_eps ?? 0} 集，可继续生成后续分集`
+      : checkpointText;
+  const generationButtonText = status === 'generating'
+    ? '生成中...'
+    : checkpoint?.phase === 'COMPLETE' && (work?.total_eps ?? 0) > 0
+      ? '继续生成后续分集'
+      : '继续生成分集';
+
   const handleGenerateWork = async () => {
-    if (!work || work.source !== 'user' || status === 'generating') return;
+    if (!work || work.source !== 'user' || isBlocking) return;
 
     const selectedWordList = wordLists.find((item) => item.id === selectedWordListId);
     if (!selectedWordList) {
@@ -214,7 +230,7 @@ export default function WorkManageScreen() {
   };
 
   const confirmDelete = () => {
-    if (!work || work.source !== 'user') return;
+    if (!work || work.source !== 'user' || isBlocking) return;
 
     Alert.alert(
       '删除小说',
@@ -248,7 +264,7 @@ export default function WorkManageScreen() {
                 onChangeText={setTitleDraft}
                 onBlur={handleSaveTitle}
                 onSubmitEditing={handleSaveTitle}
-                editable={status !== 'saving'}
+                editable={!isBlocking}
                 placeholder="作品名称"
                 placeholderTextColor={Colors.secondary}
                 returnKeyType="done"
@@ -276,7 +292,7 @@ export default function WorkManageScreen() {
                       pressed && { backgroundColor: Colors.pressedOverlay },
                     ]}
                     onPress={() => handleSelectWordList(wordList.id)}
-                    disabled={status === 'saving'}
+                    disabled={isBlocking}
                   >
                     <View style={styles.wordListTextWrap}>
                       <Text style={styles.wordListName}>{wordList.name}</Text>
@@ -290,28 +306,22 @@ export default function WorkManageScreen() {
               })}
             </View>
 
-            {work.source === 'user' && work.total_eps === 0 && (
+            {showGenerationSection && (
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>生成分集</Text>
-                <Text style={styles.hint}>
-                  {status === 'generating'
-                    ? generationText || '正在生成...'
-                    : checkpointText}
-                </Text>
+                <Text style={styles.hint}>{generationHint}</Text>
                 <Pressable
                   style={({ pressed }) => [
                     styles.generateBtn,
-                    status === 'generating' && styles.generateBtnDisabled,
-                    pressed && status !== 'generating' && {
+                    isBlocking && styles.generateBtnDisabled,
+                    pressed && !isBlocking && {
                       backgroundColor: Colors.pressedOverlay,
                     },
                   ]}
                   onPress={handleGenerateWork}
-                  disabled={status === 'generating'}
+                  disabled={isBlocking}
                 >
-                  <Text style={styles.generateText}>
-                    {status === 'generating' ? '生成中...' : '继续生成分集'}
-                  </Text>
+                  <Text style={styles.generateText}>{generationButtonText}</Text>
                 </Pressable>
               </View>
             )}
@@ -320,13 +330,13 @@ export default function WorkManageScreen() {
               <Pressable
                 style={({ pressed }) => [
                   styles.deleteBtn,
-                  pressed && { backgroundColor: Colors.pressedOverlay },
+                  pressed && !isBlocking && { backgroundColor: Colors.pressedOverlay },
                 ]}
                 onPress={confirmDelete}
-                disabled={status === 'saving'}
+                disabled={isBlocking}
               >
                 <Text style={styles.deleteText}>
-                  {status === 'saving' ? '处理中...' : '删除小说'}
+                  {isBlocking ? '处理中...' : '删除小说'}
                 </Text>
               </Pressable>
             )}

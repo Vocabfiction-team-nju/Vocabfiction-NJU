@@ -1,4 +1,4 @@
-export const BUILTIN_WORD_LIST_ID = 'builtin-nju-ab';
+export const BUILTIN_WORD_LIST_ID = 'builtin-cet4-core';
 
 export interface WordList {
   id: string;
