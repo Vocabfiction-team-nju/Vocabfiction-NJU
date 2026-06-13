@@ -59,6 +59,7 @@ function buildUserPrompt(
 
   if (previousContext.length > 0) {
     lines.push('## Previous Episode Context');
+    lines.push('Use this only for continuity. Do not rewrite this context as part of the current episode.');
     for (let i = 0; i < previousContext.length; i++) {
       const msg = previousContext[i];
       let role = typeof msg.type === 'string' ? msg.type : 'unknown';
@@ -66,7 +67,7 @@ function buildUserPrompt(
         role += ` (${msg.side} - ${typeof msg.name === 'string' ? msg.name : '?'})`;
       }
       const text = typeof msg.text === 'string' ? msg.text : '';
-      lines.push(`  [${i + 1}] [${role}] ${text.length > 200 ? `${text.slice(0, 200)}...` : text}`);
+      lines.push(`  [${i + 1}] [${role}] ${text}`);
     }
     lines.push('');
   }
@@ -115,7 +116,7 @@ function buildBatchUserPrompt(episodeSlots: EpisodeSlot[], chapterTexts: string[
 
     if (slot.previous_context.length > 0) {
       lines.push('## Previous Episode Context');
-      lines.push('Use this for continuity: characters, setting, and recent events.');
+      lines.push('Use this only for continuity: characters, setting, and recent events. Do not rewrite this context as part of this episode.');
       for (let j = 0; j < slot.previous_context.length; j++) {
         const msg = slot.previous_context[j];
         let role = typeof msg.type === 'string' ? msg.type : 'unknown';
@@ -123,7 +124,7 @@ function buildBatchUserPrompt(episodeSlots: EpisodeSlot[], chapterTexts: string[
           role += ` (${msg.side} - ${typeof msg.name === 'string' ? msg.name : '?'})`;
         }
         const text = typeof msg.text === 'string' ? msg.text : '';
-        lines.push(`  [${j + 1}] [${role}] ${text.length > 200 ? `${text.slice(0, 200)}...` : text}`);
+        lines.push(`  [${j + 1}] [${role}] ${text}`);
       }
       lines.push('');
     }

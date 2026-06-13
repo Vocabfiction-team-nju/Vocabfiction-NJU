@@ -10,6 +10,8 @@ export interface CharacterData {
  * Static registry of built-in character data.
  */
 const builtinCharacters: Record<string, () => CharacterData> = {
+  makeine: () =>
+    require('@/novels/败犬女主太多了！/characters/characters.json'),
   little_prince: () =>
     require('@/novels/the_little_prince/characters/characters.json'),
   merchant_venice: () =>
@@ -20,6 +22,11 @@ const builtinCharacters: Record<string, () => CharacterData> = {
  * Static registry of built-in avatar images.
  */
 const builtinAvatars: Record<string, Record<string, () => ImageSourcePropType>> = {
+  makeine: {
+    'Yanami.png': () => require('@/novels/败犬女主太多了！/characters/Yanami.png'),
+    'Nukumizu.png': () => require('@/novels/败犬女主太多了！/characters/Nukumizu.png'),
+    'Sousuke.png': () => require('@/novels/败犬女主太多了！/characters/Sousuke.png'),
+  },
   little_prince: {},
   merchant_venice: {},
 };

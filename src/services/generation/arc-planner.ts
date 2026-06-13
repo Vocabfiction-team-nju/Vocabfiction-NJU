@@ -2,7 +2,6 @@ import type { ArcPlan, Chapter, EpisodeSlot, PendingWord, ReadingProgressState }
 
 const DEFAULT_EPISODES_PER_ARC = 10;
 const MAX_EPISODE_WORDS = 600;
-const OVERLAP_WORDS = 100;
 const SIDE_EP_REJECT_THRESHOLD = 3;
 const SIDE_EP_TRIGGER_MIN_WORDS = 5;
 const SIDE_EPISODE_POSITION = -1;
@@ -64,7 +63,6 @@ export function tokenizePlanningText(text: string): string[] {
 export interface ArcPlannerConfig {
   episodes_per_arc: number;
   max_episode_words: number;
-  overlap_words: number;
   side_ep_reject_threshold: number;
   side_ep_trigger_min_words: number;
   side_episode_position: number;
@@ -74,7 +72,6 @@ function defaultConfig(config?: Partial<ArcPlannerConfig>): ArcPlannerConfig {
   return {
     episodes_per_arc: DEFAULT_EPISODES_PER_ARC,
     max_episode_words: MAX_EPISODE_WORDS,
-    overlap_words: OVERLAP_WORDS,
     side_ep_reject_threshold: SIDE_EP_REJECT_THRESHOLD,
     side_ep_trigger_min_words: SIDE_EP_TRIGGER_MIN_WORDS,
     side_episode_position: SIDE_EPISODE_POSITION,
@@ -242,27 +239,8 @@ export function planNextArc(params: {
       break;
     }
 
-    if (sourceWordCount >= config.overlap_words) {
-      const nextStart = endWordOffset - config.overlap_words;
-      if (nextStart < 0) {
-        const prevChapterId = endChapterId > 1 ? endChapterId - 1 : 1;
-        const prevChapter = chapters.find((chapter) => chapter.chapter_id === prevChapterId);
-        if (prevChapter) {
-          const prevWordCount = countWords(prevChapter.raw_text);
-          wordPos = Math.max(0, prevWordCount + nextStart);
-          currentChapterId = prevChapterId;
-        } else {
-          wordPos = 0;
-          currentChapterId = endChapterId;
-        }
-      } else {
-        wordPos = nextStart;
-        currentChapterId = endChapterId;
-      }
-    } else {
-      wordPos = endWordOffset;
-      currentChapterId = endChapterId;
-    }
+    wordPos = endWordOffset;
+    currentChapterId = endChapterId;
   }
 
   return {

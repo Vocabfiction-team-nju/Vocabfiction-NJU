@@ -8,7 +8,7 @@ Move the runtime generation path into the Android app while keeping `ELBackend` 
 
 - `NovelPreprocessor`: regex chapter splitting, model-assisted splitting fallback, metadata extraction with fallback.
 - `VocabularyPreprocessor`: word-list parsing, bundled `word_sense_mobile.db` sense expansion, initial FSRS card creation.
-- `ArcPlanner`: episode slicing, overlap, side-episode trigger rules.
+- `ArcPlanner`: fixed-window episode slicing, previous-episode context handoff, side-episode trigger rules.
 - `VocabularyScheduler`: unseen/review pools, pending overlay, scoring formula, main/side allocation.
 - `StoryRewriter`: OpenAI-compatible chat/completions JSON generation.
 - `VocabularyAnnotator`: surface matching, ECDICT lemma fallback, `item_id` marks.

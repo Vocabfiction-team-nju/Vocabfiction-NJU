@@ -1,7 +1,13 @@
 import type { Episode } from '@/src/models/episode';
 import { loadUserEpisode, loadUserPlainText } from '@/src/services/user-content';
+import { PARA_CH01 } from './para-ch01';
 
 const builtinEpisodes: Record<string, Record<number, () => Episode>> = {
+  makeine: {
+    1: () => require('@/novels/败犬女主太多了！/makeine/ep01_a_quiet_afternoon.json'),
+    2: () => require('@/novels/败犬女主太多了！/makeine/ep02_the_argument.json'),
+    3: () => require('@/novels/败犬女主太多了！/makeine/ep03_the_glass.json'),
+  },
   little_prince: {
     1: () => require('@/novels/the_little_prince/little_prince/ep01.json'),
     2: () => require('@/novels/the_little_prince/little_prince/ep02.json'),
@@ -42,6 +48,7 @@ export async function loadEpisode(workId: string, epNum: number): Promise<Episod
 
 /** Load plain text chapter for traditional reading mode. */
 export async function loadPlainText(workId: string, _chNum = 1): Promise<string | null> {
+  if (workId === 'makeine') return PARA_CH01;
   return loadUserPlainText(workId);
 }
 

@@ -230,11 +230,16 @@ export async function initDatabase(): Promise<{
   await appDb.execAsync(`
     INSERT OR IGNORE INTO settings (key, value) VALUES ('font_size', 'medium');
     INSERT OR IGNORE INTO settings (key, value) VALUES ('reading_mode', 'chat');
-    DELETE FROM works WHERE id IN ('makeine', 'gamers') AND source = 'builtin';
+    DELETE FROM works WHERE id = 'gamers' AND source = 'builtin';
+    INSERT OR IGNORE INTO works (id, title, title_en, total_eps, source, word_list_id)
+    VALUES ('makeine', '败犬女主太多了！', 'Too Many Losing Heroines!', 3, 'builtin', '${BUILTIN_WORD_LIST_ID}');
     INSERT OR IGNORE INTO works (id, title, title_en, total_eps, source, word_list_id)
     VALUES ('little_prince', '小王子', 'The Little Prince', 10, 'builtin', '${BUILTIN_WORD_LIST_ID}');
     INSERT OR IGNORE INTO works (id, title, title_en, total_eps, source, word_list_id)
     VALUES ('merchant_venice', '威尼斯商人', 'The Merchant of Venice', 10, 'builtin', '${BUILTIN_WORD_LIST_ID}');
+    UPDATE works
+    SET title = '败犬女主太多了！', title_en = 'Too Many Losing Heroines!', total_eps = 3, word_list_id = '${BUILTIN_WORD_LIST_ID}'
+    WHERE id = 'makeine' AND source = 'builtin';
     UPDATE works
     SET title = '小王子', title_en = 'The Little Prince', total_eps = 10, word_list_id = '${BUILTIN_WORD_LIST_ID}'
     WHERE id = 'little_prince' AND source = 'builtin';

@@ -128,6 +128,25 @@ function inferPlanEndFromArcPlan(
   return null;
 }
 
+function withPreviousEpisodeContext<T extends { previous_context: Array<Record<string, unknown>> }>(
+  slots: T[],
+  completedEpisodes: Episode[],
+): T[] {
+  if (slots.length === 0 || completedEpisodes.length === 0) return slots;
+
+  const previousEpisode = completedEpisodes[completedEpisodes.length - 1];
+  return slots.map((slot, index) => {
+    if (index !== 0) return slot;
+    return {
+      ...slot,
+      previous_context: [
+        ...slot.previous_context,
+        ...previousEpisode.messages,
+      ],
+    };
+  });
+}
+
 export async function generateEpisodesInApp(params: {
   workId?: string;
   title: string;
@@ -428,6 +447,7 @@ export async function generateEpisodesInApp(params: {
     });
 
     const remainingSlots = arcPlan.episodes.slice(episodes.length);
+    const slotsForRewrite = withPreviousEpisodeContext(remainingSlots, episodes);
     let rewriteResults: Awaited<ReturnType<typeof rewriteBatch>> = [];
     if (remainingSlots.length > 0) {
       const generatingStartedAt = Date.now();
@@ -445,7 +465,7 @@ export async function generateEpisodesInApp(params: {
         runId,
         remaining: remainingSlots.length,
         total: arcPlan.episodes.length,
-        slots: remainingSlots.map((slot) => ({
+        slots: slotsForRewrite.map((slot) => ({
           episode_id: slot.episode_id,
           episode_type: slot.episode_type,
           sourceTextChars: slot.source_text?.length ?? 0,
@@ -463,8 +483,8 @@ export async function generateEpisodesInApp(params: {
 
       try {
         rewriteResults = await rewriteBatch(
-          remainingSlots,
-          remainingSlots.map((slot) => slot.source_text ?? ''),
+          slotsForRewrite,
+          slotsForRewrite.map((slot) => slot.source_text ?? ''),
         );
       } finally {
         clearInterval(pulse);
